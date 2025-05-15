@@ -1,8 +1,9 @@
-Taipingu is a minimalistic japanese typing game, featuring thousands of sentences from the collaborative [Tatoeba](https://tatoeba.org/) project (CC-BY).
+「タイピング」 Taipingu is a minimalistic japanese typing game
 
-- Furigana transcription 
-- Translation in many languages
-- Audio (native speakers)
+- Thousands of sentences from [Tatoeba](https://tatoeba.org/) (CC-BY)
+  - Transcription (furigana)
+  - Translation in many languages
+  - Audio (native speakers)
 - 2 font styles
 - Test your typing speed
 - Control the number of unknown kanji readings per sentence
