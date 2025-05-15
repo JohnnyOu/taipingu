@@ -1,0 +1,830 @@
+[
+  {
+    "id": "4704",
+    "transcription": "[何|なに]してるの？",
+    "translations": {
+      "spa": "¿Qué estás haciendo?",
+      "kor": "뭐해요?",
+      "vie": "Bạn đang làm gì đây?",
+      "nld": "Waar ben jij mee bezig?",
+      "por": "O que faremos?",
+      "ita": "Che fai?",
+      "epo": "Kion vi faras nun?",
+      "hrv": "Što radiš?",
+      "ind": "Kamu sedang apa?",
+      "tat": "Нишлисең?",
+      "lvs": "Ko tu dari?"
+    },
+    "audio": {
+      "id": "1682",
+      "author": "yomi"
+    },
+    "text": "何してるの？"
+  },
+  {
+    "id": "4705",
+    "transcription": "[今日|きょう]は[６月|ろくがつ][１８|じゅう|はち][日|にち]で、ムーリエルの[誕生|たん|じょう][日|び]です！",
+    "translations": {
+      "cmn": "今天是６月１８号，也是Muiriel的生日！",
+      "deu": "Heute ist der 18. Juni und das ist der Geburtstag von Muiriel!",
+      "eng": "Today is June 18th and it is Muiriel's birthday!",
+      "spa": "¡Hoy es 18 de junio y es el cumpleaños de Muiriel!",
+      "fra": "Aujourd'hui nous sommes le 18 juin et c'est l'anniversaire de Muiriel !",
+      "kor": "오늘은 6월 18일, Muiriel의 생일입니다!",
+      "rus": "Сегодня 18 июня, и это день рождения Мюриэл!",
+      "vie": "Hôm nay là ngày 18 tháng sáu, và cũng là ngày sinh nhật của Muiriel!",
+      "nld": "Vandaag is het 18 juni en het is de verjaardag van Muiriel!",
+      "por": "Hoje é dia 18 de junho, aniversário do Muiriel!",
+      "pol": "Dziś 18 czerwca, urodziny Muiriel!",
+      "nob": "I dag er det juni den 18. og det er Muiriels bursdag.",
+      "tlh": "jar jav jaj wa'maH chorghDIch 'oH jajvam'e', 'ej muryel qoS 'oH!",
+      "ind": "Hari ini tanggal 18 Juni, hari ini adalah hari Ulang tahun Muiriel"
+    },
+    "text": "今日は６月１８日で、ムーリエルの誕生日です！"
+  },
+  {
+    "id": "4707",
+    "transcription": "ムーリエルは[２０歳|はたち]になりました。",
+    "translations": {
+      "cmn": "Muiriel现在20岁了。",
+      "deu": "Muiriel ist jetzt 20.",
+      "eng": "Muiriel has turned twenty.",
+      "spa": "Ahora, Muiriel tiene 20 años.",
+      "fra": "Muiriel a 20 ans maintenant.",
+      "kor": "Muiriel은 지금 20살입니다.",
+      "rus": "Мюриэл сейчас 20.",
+      "vie": "Bây giờ Muiriel được 20 tuổi.",
+      "nld": "Muiriel is nu 20 jaar oud.",
+      "por": "Muriel completou 20 anos.",
+      "isl": "Muiriel er orðin tuttugu ára.",
+      "ind": "Muiriel sudah 20 tahun"
+    },
+    "text": "ムーリエルは２０歳になりました。"
+  },
+  {
+    "id": "4709",
+    "transcription": "すぐに[戻|もど]ります。",
+    "translations": {
+      "cmn": "我很快就會回來。",
+      "deu": "Ich bin gleich wieder da!",
+      "spa": "Volveré pronto.",
+      "fra": "Je serai de retour dans une minute.",
+      "kor": "곧 돌아올께요.",
+      "por": "Voltarei em breve.",
+      "pol": "Niedługo wrócę.",
+      "ita": "Torno subito.",
+      "eng": "I'll be back shortly.",
+      "ara": "سنعود بعد قليل.",
+      "tur": "Hemen dönerim.",
+      "lvs": "Drīz būšu atpakaļ."
+    },
+    "text": "すぐに戻ります。"
+  },
+  {
+    "id": "4710",
+    "transcription": "[知|し]らない。",
+    "translations": {
+      "cmn": "我不知道。",
+      "vie": "Không biết.",
+      "por": "Não sei.",
+      "tur": "Bilmem.",
+      "pol": "Nie znam go.",
+      "fin": "Mä en tiiä.",
+      "hun": "Mit tudom én!",
+      "isl": "Ég þekki það ekki.",
+      "fra": "Aucune idée.",
+      "rus": "Без понятия.",
+      "kor": "몰라.",
+      "ind": "Tidak mengerti",
+      "sux": "𒉡 𒍪",
+      "nob": "Ingen anelse.",
+      "npi": "मलाई थाहा छैन।"
+    },
+    "text": "知らない。"
+  },
+  {
+    "id": "4711",
+    "transcription": "[何|なん]と[言|い]ったら[良|よ]いか[分|わ]かりません。",
+    "translations": {
+      "cmn": "我不知道應該說什麼才好。",
+      "spa": "No sé qué puedo decir.",
+      "fra": "J'en perds mes mots.",
+      "vie": "Tôi hết lời để nói.",
+      "nld": "Ik heb er geen woorden voor.",
+      "ara": "لا أعرف ماذا أقول.",
+      "rus": "Не знаю, что сказать.",
+      "ita": "Non so che cosa dire.",
+      "fin": "En tiedä mitä sanoa."
+    },
+    "text": "何と言ったら良いか分かりません。"
+  },
+  {
+    "id": "4713",
+    "transcription": "[何|なん]と[言|い]ったらいいか・・・。",
+    "translations": {
+      "cmn": "我只是不知道應該說什麼而已……",
+      "deu": "Ich weiß einfach nicht, was ich sagen soll.",
+      "spa": "Simplemente no sé qué decir...",
+      "fra": "Je ne sais simplement pas quoi dire...",
+      "kor": "뭐라고 말해야 할지 정말 모르겠어...",
+      "rus": "Не знаю, что и сказать.",
+      "vie": "Tôi không biết nên nói gì cả...",
+      "nld": "Ik weet niet wat te zeggen...",
+      "por": "O que eu poderia dizer...",
+      "eng": "I simply don't know what to say...",
+      "fin": "Mitä tässä nyt oikein sanoisi...",
+      "yue": "唔知講乜好..."
+    },
+    "text": "何と言ったらいいか・・・。"
+  },
+  {
+    "id": "4714",
+    "transcription": "こいつは[悪|わる]いウサギだった。",
+    "translations": {
+      "cmn": "那是一隻有惡意的兔子。",
+      "deu": "Das war ein böses Kaninchen.",
+      "spa": "Era un conejo malo.",
+      "fra": "C’était un méchant lapin.",
+      "rus": "Это был злой кролик.",
+      "vie": "Đó là một con thỏ hung ác.",
+      "nld": "Dat was een slecht konijn.",
+      "fin": "Tää tyyppi on ilkeä jänis."
+    },
+    "text": "こいつは悪いウサギだった。"
+  },
+  {
+    "id": "4715",
+    "transcription": "[私|わたし]は[山|やま]にいました。",
+    "translations": {
+      "cmn": "我以前在山里。",
+      "deu": "Ich war in den Bergen.",
+      "eng": "I was in the mountains.",
+      "spa": "Yo estaba en las montañas.",
+      "fra": "J'étais dans les montagnes.",
+      "kor": "나는 산에 있었어.",
+      "vie": "Tôi từ trên núi xuống.",
+      "nld": "Ik was in de bergen.",
+      "por": "Eu fui na montanha.",
+      "nob": "Jeg var på fjellet.",
+      "ita": "Ero in montagna.",
+      "fin": "Olin vuorilla.",
+      "ind": "Saya sudah berada di gunung"
+    },
+    "text": "私は山にいました。"
+  },
+  {
+    "id": "4716",
+    "transcription": "それは[最近|さい|きん]の[写真|しゃ|しん]？",
+    "translations": {
+      "cmn": "那是一张近照吗？",
+      "eng": "Is that a recent picture?",
+      "spa": "¿Es una foto reciente?",
+      "fra": "Est-ce que c'est une photo récente ?",
+      "kor": "이 사진 최근 거에요?",
+      "rus": "Это новая фотография?",
+      "vie": "Nó có phải là tấm hình mới chụp không?",
+      "nld": "Is dit een recente foto?",
+      "deu": "Ist das ein aktuelles Foto?",
+      "isl": "Er þetta nýleg mynd?",
+      "ita": "È una foto recente?",
+      "fin": "Onko se tuore kuva?",
+      "nob": "Er det et nylig tatt bilde?",
+      "ind": "Ini adalah foto terbaru?",
+      "por": "Essa é uma foto recente?"
+    },
+    "text": "それは最近の写真？"
+  },
+  {
+    "id": "4720",
+    "transcription": "この[世界|せ|かい]の[教育|きょう|いく]にはがっかりしてしまう。",
+    "translations": {
+      "cmn": "世界上的教育都讓我失望。",
+      "deu": "Die Ausbildung in dieser Welt enttäuscht mich.",
+      "eng": "Education in this world disappoints me.",
+      "spa": "La educación en este mundo me decepciona.",
+      "fra": "L'éducation dans ce monde me déçoit.",
+      "kor": "이 세상의 교육이 나를 실망시켜요.",
+      "nld": "Het onderwijs in deze wereld valt me tegen.",
+      "epo": "La ĉi-monda edukado elrevigas min.",
+      "fin": "Olen pettynyt tämän maailman koulutukseen."
+    },
+    "text": "この世界の教育にはがっかりしてしまう。"
+  },
+  {
+    "id": "4728",
+    "transcription": "それはあなたが[一人|ひと|り]になりたくないからです。",
+    "translations": {
+      "deu": "Das liegt daran, dass du nicht allein sein willst.",
+      "eng": "That's because you don't want to be alone.",
+      "spa": "Eso es porque no quieres estar solo.",
+      "fra": "C'est parce que tu ne veux pas être seul.",
+      "kor": "왜냐하면 당신은 혼자가 되고 싶지 않기 때문이에요.",
+      "pol": "To dlatego, że nie chcesz być sam.",
+      "fin": "Se johtuu siitä, että sinä et halua olla yksin.",
+      "por": "Isso é porque não queres ficar sozinho."
+    },
+    "text": "それはあなたが一人になりたくないからです。"
+  },
+  {
+    "id": "4729",
+    "transcription": "そんなことは[起|お]きないでしょう。",
+    "translations": {
+      "cmn": "那是不會發生的。",
+      "deu": "Das wird wohl kaum passieren.",
+      "eng": "That's not gonna happen.",
+      "spa": "Eso no va a pasar.",
+      "fra": "Ça n'arrivera pas.",
+      "rus": "Этого не случится.",
+      "hun": "Ez nem fog megtörténni.",
+      "tlh": "qaSbe'ba' Dochvetlh.",
+      "fin": "Sellaista ei taida tapahtua.",
+      "vie": "Điều đó sẽ không xảy ra."
+    },
+    "text": "そんなことは起きないでしょう。"
+  },
+  {
+    "id": "4732",
+    "transcription": "みんなもそうなのかな、と[思|おも]うことくらいしかできない。",
+    "translations": {
+      "deu": "Ich kann mich nur fragen, ob es für alle anderen dasselbe ist.",
+      "eng": "I can only wonder if this is the same for everyone else.",
+      "spa": "Sólo puedo preguntarme si acaso es lo mismo para todos los demás.",
+      "fra": "Je ne peux que me demander si c'est la même chose pour tous les autres.",
+      "rus": "Я могу только догадываться, так ли это и для всех остальных.",
+      "cmn": "我只能问自己这对其他所有人是不是一回事呢。",
+      "fin": "En voi muuta kuin miettiä onkohan kaikilla muillakin samanlaista.",
+      "vie": "Tôi chỉ biết tự hỏi bản thân rằng, không biết liệu những người khác cũng như vậy hay không."
+    },
+    "text": "みんなもそうなのかな、と思うことくらいしかできない。"
+  },
+  {
+    "id": "4733",
+    "transcription": "[長|なが]い[目|め]で[見|み]れば[違|ちが]ってくると[思|おも]います。",
+    "translations": {
+      "deu": "Ich vermute, das ist anders, wenn du darüber längerfristig nachdenkst.",
+      "eng": "I suppose it's different when you think about it over the long term.",
+      "spa": "Supongo que es diferente cuando lo consideras a largo plazo.",
+      "fra": "Je suppose que c'est différent quand tu y penses à long terme.",
+      "rus": "Я полагаю, это будет выглядеть несколько иначе, когда ты подумаешь об этом в долгосрочном плане.",
+      "cmn": "我认为你考虑久了就会不一样了。",
+      "ita": "Credo che sia diverso se si pensa a lungo termine."
+    },
+    "text": "長い目で見れば違ってくると思います。"
+  },
+  {
+    "id": "4734",
+    "transcription": "[心配|しん|ぱい]しないで。",
+    "translations": {
+      "cmn": "别担心了。",
+      "deu": "Mach dir keine Sorgen.",
+      "ara": "لا تقلق.",
+      "por": "Não se preocupe.",
+      "fra": "Il n'y a pas de mal.",
+      "isl": "Engar áhyggjur.",
+      "nld": "Maak u niet ongerust.",
+      "jbo": "e'o ko na xanka",
+      "eus": "Ez kezkatu",
+      "ind": "Tolong jangan cemas",
+      "spa": "No se preocupen."
+    },
+    "audio": {
+      "id": "1684",
+      "author": "yomi"
+    },
+    "text": "心配しないで。"
+  },
+  {
+    "id": "4735",
+    "transcription": "[会|あ]えなくて[淋|さび]しい。",
+    "translations": {
+      "cmn": "我想你。",
+      "deu": "Ich vermisse euch.",
+      "fra": "Tu me manques.",
+      "ita": "Mi manchi.",
+      "kor": "보고 싶어.",
+      "rus": "Я скучаю по тебе.",
+      "spa": "Te echo de menos.",
+      "fin": "Mul on ikävä sua."
+    },
+    "text": "会えなくて淋しい。"
+  },
+  {
+    "id": "4736",
+    "transcription": "[明日|あした][帰|かえ]ったら[電話|でん|わ]します。",
+    "translations": {
+      "cmn": "我明天回來的時候會跟他們聯絡。",
+      "deu": "Ich werde sie morgen anrufen, wenn ich zurückkomme.",
+      "eng": "I'll call after going home tomorrow.",
+      "spa": "Les llamaré mañana cuando regrese.",
+      "fra": "Je les appellerai demain quand je reviendrai.",
+      "rus": "Я позвоню им завтра, когда вернусь домой.",
+      "nob": "Jeg ringer dem i morgen når jeg kommer hjem.",
+      "pol": "Zadzwonię jutro kiedy wrócę.",
+      "fin": "Soitan sinulle huomenna, kun tulen kotiin.",
+      "ind": "Jika besok telah kembali, akan saya telepon"
+    },
+    "text": "明日帰ったら電話します。"
+  },
+  {
+    "id": "4738",
+    "transcription": "[眠|ねむ]った[方|ほう]がいいよ。",
+    "translations": {
+      "cmn": "你應該去睡覺了吧。",
+      "deu": "Du sollst schlafen.",
+      "spa": "Deberías dormir.",
+      "fra": "Tu devrais dormir.",
+      "kor": "당신 좀 자야겠어요.",
+      "rus": "Тебе лучше поспать.",
+      "vie": "Bạn nên đi ngủ đi.",
+      "nld": "Je zou moeten slapen.",
+      "nob": "Du bør sove.",
+      "fin": "Sinun on parasta nukkua.",
+      "mfa": "dido lah"
+    },
+    "text": "眠った方がいいよ。"
+  },
+  {
+    "id": "4739",
+    "transcription": "[行|い]くよ。",
+    "translations": {
+      "cmn": "我要走了。",
+      "kor": "나는 갈 거에요.",
+      "rus": "Я пойду.",
+      "pol": "Pójdę.",
+      "fra": "Je vais y aller.",
+      "spa": "¡Que voy!",
+      "hun": "Megyek.",
+      "fin": "Mä meen.",
+      "ind": "Ayo pergi",
+      "eus": "Banoa!",
+      "slk": "Idem.",
+      "por": "Vamos."
+    },
+    "audio": {
+      "id": "750950",
+      "author": "lowteq"
+    },
+    "text": "行くよ。"
+  },
+  {
+    "id": "4742",
+    "transcription": "[私|わたし]はそんな[風|ふう]には[生|い]きられない。",
+    "translations": {
+      "cmn": "我不能这样活着。",
+      "deu": "Ich kann kein solches Leben führen.",
+      "eng": "I can't live that kind of life.",
+      "spa": "No puedo vivir así.",
+      "fra": "Je ne peux pas vivre comme ça.",
+      "rus": "Я так жить не могу.",
+      "fin": "En voi elää sillätavalla.",
+      "nld": "Ik kan zo niet leven.",
+      "epo": "Tiel mi ne povas vivi.",
+      "nds": "Ik kann so nich leven.",
+      "nob": "Jeg kan ikke leve et slikt liv.",
+      "eus": "Ni ezin naiz horrela bizi."
+    },
+    "text": "私はそんな風には生きられない。"
+  },
+  {
+    "id": "4746",
+    "transcription": "[残念|ざん|ねん]ながらそれは[本当|ほん|とう]なのです。",
+    "translations": {
+      "cmn": "可惜这是真的。",
+      "eng": "It is unfortunately true.",
+      "spa": "Por desgracia, eso es cierto.",
+      "fra": "C'est malheureusement vrai.",
+      "kor": "유감스럽게도 사실이네요.",
+      "rus": "К сожалению, это правда.",
+      "vie": "Tiếc rằng cái đó là sự thật.",
+      "deu": "Leider ist das wahr.",
+      "fin": "Pitää valitettavasti paikkansa.",
+      "tlh": "Do'Ha' teH.",
+      "nob": "Det er dessverre sant.",
+      "ind": "Sayangnya itu benar.",
+      "eus": "Tamalez egia da."
+    },
+    "text": "残念ながらそれは本当なのです。"
+  },
+  {
+    "id": "4748",
+    "transcription": "[私|わたし]は[違|ちが]います。あなたです。",
+    "translations": {
+      "cmn": "不，我不是！你才是！",
+      "deu": "Nein, ich bin es nicht, du bist es!",
+      "eng": "No I'm not; you are!",
+      "spa": "¡No, no lo soy! ¡Lo eres tú!",
+      "fra": "Non je ne le suis pas, c'est toi qui l'es !",
+      "rus": "Нет, не я, а ты!"
+    },
+    "text": "私は違います。あなたです。"
+  },
+  {
+    "id": "4749",
+    "transcription": "それは[私|わたし]の[台詞|せりふ]だよ！",
+    "translations": {
+      "cmn": "那是我該說的話!",
+      "deu": "Das ist mein Spruch!",
+      "spa": "¡Eso tendría que decirlo yo!",
+      "fra": "C'est ma réplique !",
+      "hun": "Ez az én szövegem!"
+    },
+    "text": "それは私の台詞だよ！"
+  },
+  {
+    "id": "4750",
+    "transcription": "[彼|かれ]は[私|わたし]を[蹴|け]っています！",
+    "translations": {
+      "cmn": "他在踢我！",
+      "deu": "Er tritt mich!",
+      "eng": "He is kicking me!",
+      "spa": "¡Él me está dando patadas!",
+      "fra": "Il me donne des coups de pied !",
+      "rus": "Он меня пинает!",
+      "ind": "Dia menendangku!"
+    },
+    "text": "彼は私を蹴っています！"
+  },
+  {
+    "id": "4751",
+    "transcription": "[本当|ほん|とう]？",
+    "translations": {
+      "cmn": "你肯定吗？",
+      "deu": "Wirklich?",
+      "spa": "¿Es eso verdad?",
+      "fra": "Est-ce que tu es sûr ?",
+      "ita": "Sei sicuro?",
+      "kor": "정말이야?",
+      "rus": "Действительно?",
+      "nld": "Echt?",
+      "nob": "Virkelig?",
+      "por": "Você tem certeza?",
+      "hun": "Biztos?",
+      "swe": "Menar du verkligen det?",
+      "mar": "खरोखर?",
+      "fin": "Ihanks totta?",
+      "hrv": "Stvarno?",
+      "afr": "Is dit regtig?",
+      "vie": "Thật á?",
+      "yue": "真嘅？",
+      "mya": "တကယ်ကြီး!",
+      "mfa": "sungoh?",
+      "ind": "Apa iya?"
+    },
+    "audio": {
+      "id": "1685",
+      "author": "yomi"
+    },
+    "text": "本当？"
+  },
+  {
+    "id": "4752",
+    "transcription": "そうしたらひとつ[問題|もん|だい]があって・・・。",
+    "translations": {
+      "cmn": "那么就有一个问题...",
+      "deu": "Dann haben wir ein Problem...",
+      "eng": "Then there is a problem...",
+      "spa": "Entonces tenemos un problema...",
+      "fra": "Alors il y a un problème...",
+      "rus": "Тогда это проблема..."
+    },
+    "text": "そうしたらひとつ問題があって・・・。"
+  },
+  {
+    "id": "4753",
+    "transcription": "あ！[蝶々|ちょうちょ]がいる！",
+    "translations": {
+      "cmn": "哦！有一隻蝴蝶！",
+      "deu": "Oh, da ist ein Schmetterling!",
+      "spa": "¡Ah, allí hay una mariposa!",
+      "fra": "Oh, il y a un papillon !",
+      "vie": "Ô kìa, con bươm bướm!",
+      "pol": "Och! Motylek!"
+    },
+    "text": "あ！蝶々がいる！"
+  },
+  {
+    "id": "4754",
+    "transcription": "[急|いそ]いで！",
+    "translations": {
+      "cmn": "趕快!",
+      "deu": "Beeile dich!",
+      "vie": "Mau lên!",
+      "dan": "Skynd dig!",
+      "nob": "Skynd deg!",
+      "eng": "Step on it!",
+      "ind": "Buruan!",
+      "eus": "Mugi zaitez!",
+      "fin": "Tuu nopee!",
+      "kor": "서둘러."
+    },
+    "audio": {
+      "id": "1686",
+      "author": "yomi"
+    },
+    "text": "急いで！"
+  },
+  {
+    "id": "4755",
+    "transcription": "[驚|おどろ]くことではないね。",
+    "translations": {
+      "deu": "Es überrascht mich nicht.",
+      "eng": "I'm not surprised by this.",
+      "spa": "No me sorprende.",
+      "fra": "Ça ne me surprend pas.",
+      "rus": "Это не удивительно.",
+      "dan": "Det overrasker mig ikke.",
+      "eus": "Ez da harritzekoa, ezta?"
+    },
+    "text": "驚くことではないね。"
+  },
+  {
+    "id": "4758",
+    "transcription": "それは[文脈|ぶん|みゃく]による。",
+    "translations": {
+      "deu": "Das kommt auf den Zusammenhang an.",
+      "eng": "It depends on the context.",
+      "spa": "Eso depende del contexto.",
+      "vie": "Cái đó tùy thuộc vào văn cảnh.",
+      "ita": "Dipende dal contesto.",
+      "nob": "Det kommer an på sammenheng."
+    },
+    "text": "それは文脈による。"
+  },
+  {
+    "id": "4759",
+    "transcription": "[冗談|じょう|だん]でしょ！？",
+    "translations": {
+      "cmn": "你是在跟我開玩笑吧？！",
+      "deu": "Willst du mich verdammt nochmal auf den Arm nehmen?!",
+      "spa": "¿Me estás bromeando?",
+      "fra": "Est-ce que tu te fous de moi ? !",
+      "rus": "Ты шутишь?",
+      "acm": "أكيد نكتة!",
+      "pol": "Żartujesz?!",
+      "lit": "Juokauji !?",
+      "por": "Mentira, não é!?",
+      "fin": "Yritätkö vedättää mua?",
+      "tlh": "bIqID'a'!?",
+      "ind": "Kau bercanda kan!?",
+      "eus": "Txantxa izango da!?"
+    },
+    "text": "冗談でしょ！？"
+  },
+  {
+    "id": "4760",
+    "transcription": "こんな[馬鹿|ば|か]なことは[言|い]ったことが[無|な]い。",
+    "translations": {
+      "deu": "Das ist das Dümmste, was ich je gesagt habe.",
+      "eng": "I've never said such a stupid thing.",
+      "spa": "Es la cosa más estúpida que he dicho nunca.",
+      "fra": "C'est la chose la plus stupide que j'ai jamais dite.",
+      "rus": "Это самая глупая вещь, которую я когда-либо говорил.",
+      "fin": "Se on typerin asia, jonka olen koskaan sanonut.",
+      "ita": "Non ho mai detto una stupidaggine del genere."
+    },
+    "text": "こんな馬鹿なことは言ったことが無い。"
+  },
+  {
+    "id": "4761",
+    "transcription": "のろまにはなりたくない。かっこ[良|よ]くなりたい！！",
+    "translations": {
+      "deu": "Ich will nicht erbärmlich sein, ich will cool sein!!",
+      "spa": "¡¡No quiero ser patético, quiero ser guay!!",
+      "fra": "Je ne veux pas être lamentable, je veux être cool ! !",
+      "rus": "Я не хочу быть жалким, я хочу быть крутым!!"
+    },
+    "text": "のろまにはなりたくない。かっこ良くなりたい！！"
+  },
+  {
+    "id": "4762",
+    "transcription": "[大|おお]きくなったら[王様|おう|さま]になりたい。",
+    "translations": {
+      "cmn": "我長大後想當國王。",
+      "deu": "Wenn ich groß bin, will ich ein König sein.",
+      "eng": "When I grow up, I want to be a king.",
+      "spa": "Cuando crezca, quiero ser un rey.",
+      "fra": "Quand je serai grand, je veux être roi.",
+      "rus": "Когда я вырасту, я хочу стать королём.",
+      "pol": "Gdy będę duży, chcę zostać królem.",
+      "nob": "Når jeg blir stor, vil jeg bli konge.",
+      "fin": "Kun kasvan aikuiseksi, haluan kuninkaaksi."
+    },
+    "text": "大きくなったら王様になりたい。"
+  },
+  {
+    "id": "4764",
+    "transcription": "[僕|ぼく]はすごく[太|ふと]ってる。",
+    "translations": {
+      "cmn": "我非常胖。",
+      "deu": "Ich bin so dick.",
+      "eng": "I'm extremely fat.",
+      "spa": "Estoy tan gordo.",
+      "fra": "Je suis si gros.",
+      "rus": "Я очень толстый.",
+      "vie": "Tôi mập quá.",
+      "ara": "أنا سمين جدا.",
+      "pol": "Ależ jestem gruby.",
+      "tlh": "jIpI'qu'.",
+      "fin": "Olen hirvittävän lihava."
+    },
+    "text": "僕はすごく太ってる。"
+  },
+  {
+    "id": "4765",
+    "transcription": "だから[何|なに]？",
+    "translations": {
+      "cmn": "那又怎樣?",
+      "spa": "¿Entonces qué?",
+      "ita": "E allora?",
+      "rus": "Так что?",
+      "vie": "Thì sao?",
+      "nob": "Hva så?",
+      "nld": "Nou en?",
+      "eng": "And?",
+      "fin": "Mitäs sitten?"
+    },
+    "text": "だから何？"
+  },
+  {
+    "id": "4767",
+    "transcription": "[言|い]ってみただけだよ！",
+    "translations": {
+      "deu": "Ich sag's ja nur!",
+      "eng": "I'm just saying!",
+      "spa": "¡Yo sólo lo digo!",
+      "fra": "Je ne fais que parler !",
+      "rus": "Я всего лишь говорю!",
+      "pol": "Tak tylko mi się powiedziało!",
+      "tlh": "vIjalthpu' neH!"
+    },
+    "text": "言ってみただけだよ！"
+  },
+  {
+    "id": "4770",
+    "transcription": "[私|わたし]ならそう[言|い]っただろうと[思|おも]う。",
+    "translations": {
+      "deu": "Das hätte ich gesagt.",
+      "eng": "This is what I would have said.",
+      "spa": "Esto es lo que yo habría dicho.",
+      "fra": "C'est ce que j'aurais dit.",
+      "rus": "Я бы так и сказал."
+    },
+    "text": "私ならそう言っただろうと思う。"
+  },
+  {
+    "id": "4771",
+    "transcription": "いつまでかかっても[全部|ぜん|ぶ]を[説明|せつ|めい]するのは[無理|む|り]だ。",
+    "translations": {
+      "deu": "Es würde ewig dauern, alles zu erklären.",
+      "eng": "It would take forever to explain everything.",
+      "spa": "Me tomaría una eternidad explicarte todo.",
+      "fra": "Ça me prendrait l'éternité pour tout expliquer.",
+      "rus": "Мне потребуется вечность, чтобы всё объяснить.",
+      "epo": "Mi bezonus jarcentojn por ĉion ekspliki."
+    },
+    "text": "いつまでかかっても全部を説明するのは無理だ。"
+  },
+  {
+    "id": "4774",
+    "transcription": "これは[代|か]わりになるものをみつけたい[単語|たん|ご]だ。",
+    "translations": {
+      "deu": "Es ist ein Wort, für das ich gerne einen Ersatz finden würde.",
+      "eng": "It's a word I'd like to find a substitute for.",
+      "spa": "Es una palabra para la que me gustaría encontrar una sustituta.",
+      "fra": "C'est un mot pour lequel j'aimerais trouver un substitut.",
+      "rus": "Это и есть то слово, для которого я хотел бы найти замену.",
+      "pol": "To jest słowo, dla którego chciałbym znaleźć ekwiwalent."
+    },
+    "text": "これは代わりになるものをみつけたい単語だ。"
+  },
+  {
+    "id": "4775",
+    "transcription": "[自分勝手|じ|ぶん|がっ|て]にするつもりはない。",
+    "translations": {
+      "deu": "Ich beabsichtige nicht, selbstsüchtig zu sein.",
+      "eng": "I don't intend to be selfish.",
+      "spa": "No tengo la intención de ser egoísta.",
+      "fra": "Il n'est pas dans mon intention d'être égoïste.",
+      "rus": "Я не хочу быть эгоистичным.",
+      "vie": "Tôi không có ý định ích kỷ đâu.",
+      "tlh": "jImutchoH 'e' vIHechbe'."
+    },
+    "text": "自分勝手にするつもりはない。"
+  },
+  {
+    "id": "4778",
+    "transcription": "[私|わたし]は[反|はん][社会|しゃ|かい][的|てき]かもしれないけれど[人|ひと]と[話|はな]さないわけではない。",
+    "translations": {
+      "deu": "Ich bin vielleicht asozial, aber das heißt nicht, dass ich nicht mit Leuten rede.",
+      "spa": "Yo puedo ser antisocial, pero eso no significa que no hable con la gente.",
+      "fra": "Il se peut que je sois antisocial, mais ça ne veut pas dire pas que je ne parle pas aux gens.",
+      "rus": "Быть может, я и асоциален, но это не значит, что я не общаюсь с людьми.",
+      "cmn": "我可能是反社会的，但这并不表示我不跟人说话。",
+      "pol": "Może jestem aspołeczny, ale nie jest tak, że nie rozmawiam z ludźmi.",
+      "vie": "Tôi có thể là một người phản xã hội, nhưng điều đó không đồng nghĩa với việc tôi không nói chuyện với ai."
+    },
+    "text": "私は反社会的かもしれないけれど人と話さないわけではない。"
+  },
+  {
+    "id": "4781",
+    "transcription": "[時間|じ|かん]はいくらでも[作|つく]れる。",
+    "translations": {
+      "deu": "Man kann immer Zeit finden.",
+      "eng": "One can always find time.",
+      "spa": "Uno siempre puede encontrar tiempo.",
+      "fra": "On peut toujours trouver du temps.",
+      "rus": "Время всегда можно найти.",
+      "vie": "Một người luôn luôn có thể kiếm thêm thì giờ."
+    },
+    "text": "時間はいくらでも作れる。"
+  },
+  {
+    "id": "4782",
+    "transcription": "[僕|ぼく]は[不幸|ふ|こう]かも[知|し]れないけれど[自殺|じ|さつ]はしない。",
+    "translations": {
+      "cmn": "我会不高兴，但我不会自杀。",
+      "deu": "Ich wäre unglücklich, aber ich würde keinen Selbstmord begehen.",
+      "eng": "Although I may be unhappy, I won't commit suicide.",
+      "spa": "Yo seré infeliz, pero no me suicidaría.",
+      "fra": "Je serais malheureux, mais je ne me suiciderais pas.",
+      "rus": "Быть может, я несчастлив, но я не собираюсь убивать себя.",
+      "ind": "Mungkin saya tidak bahagia, tetapi saya tidak bunuh diri",
+      "pol": "Może nie będę szczęśliwy, ale żył sobie nie poderżnę."
+    },
+    "text": "僕は不幸かも知れないけれど自殺はしない。"
+  },
+  {
+    "id": "4783",
+    "transcription": "[高校生|こう|こう|せい]の[時|とき]は[毎朝|まい|あさ][6|ろく][時|じ]に[起|お]きていた。",
+    "translations": {
+      "cmn": "以前讀高中的時候﹐我每天早上六點起床。",
+      "deu": "Damals im Gymnasium bin ich jeden Morgen um 6 Uhr aufgestanden.",
+      "eng": "Back in high school, I got up at 6 a.m. every morning.",
+      "spa": "Cuando yo estaba en el instituto me levantaba a las 6 todas las mañanas.",
+      "fra": "À l'époque du lycée je me levais à 6h tous les matins.",
+      "rus": "Когда я учился в средней школе, я вставал в 6:00 каждое утро.",
+      "pol": "Gdy byłem w liceum, co rano budziłem się o szóstej.",
+      "fin": "Lukioaikoinani heräsin joka aamu kuudelta.",
+      "swe": "När jag gick på gymnasiet, gick jag upp klockan sex varje morgon.",
+      "ind": "Saat masih pelajar, saya bangun jam 6 setiap pagi"
+    },
+    "text": "高校生の時は毎朝6時に起きていた。"
+  },
+  {
+    "id": "4784",
+    "transcription": "[起|お]きた[時|とき][私|わたし]は[悲|かな]しかった。",
+    "translations": {
+      "deu": "Als ich aufgewacht bin, war ich traurig.",
+      "eng": "When I woke up, I was sad.",
+      "spa": "Cuando me desperté estaba triste.",
+      "fra": "Quand je me suis réveillé j'étais triste.",
+      "kor": "일어났을 때 슬펐어.",
+      "rus": "Когда я проснулся, мне было грустно.",
+      "pol": "Obudziwszy się, byłem smutny.",
+      "tlh": "jIvempu'DI' jI'IQ.",
+      "ind": "Saat bangun saya merasa sedih"
+    },
+    "text": "起きた時私は悲しかった。"
+  },
+  {
+    "id": "4786",
+    "transcription": "[多|おお]くの[人|ひと]が[日常|にち|じょう]のことについて[文|ぶん]を[書|か]く。",
+    "translations": {
+      "spa": "La mayoría de la gente escribe sobre su vida cotidiana.",
+      "fra": "La plupart des gens écrivent à propos de leur vie quotidienne.",
+      "rus": "Многие люди пишут о своей обыденной жизни.",
+      "fin": "Monet ihmiset kirjoittavat lauseita päivittäisistä asioistaan."
+    },
+    "text": "多くの人が日常のことについて文を書く。"
+  },
+  {
+    "id": "4787",
+    "transcription": "それをするためには[危険|き|けん]を[冒|おか]さなければならない。",
+    "translations": {
+      "deu": "Um das zu tun, musst du Risiken eingehen.",
+      "eng": "In order to do that, you have to take risks.",
+      "spa": "Para hacer eso, tienes que arriesgarte.",
+      "fra": "Pour faire cela, il te faut prendre des risques.",
+      "ita": "Per farlo, bisogna correre dei rischi.",
+      "rus": "Ты должен рискнуть, чтобы сделать это.",
+      "tlh": "DachavmeH bISuDnIS.",
+      "fin": "Sinun täytyy uhmata vaaraa tehdäksesi sen."
+    },
+    "text": "それをするためには危険を冒さなければならない。"
+  },
+  {
+    "id": "4788",
+    "transcription": "[孤独|こ|どく]な[人|ひと]は、[他人|た|にん]を[恐|おそ]れるから[一人|ひとり]なのだ。",
+    "translations": {
+      "deu": "Jeder Mensch, der allein ist, ist allein, weil er Angst vor den anderen hat.",
+      "eng": "Every person who is alone is alone because they are afraid of others.",
+      "spa": "Todas las personas que están solas, están solas porque tienen miedo de los demás.",
+      "fra": "Chaque personne qui est seule est seule parce qu'elle a peur des autres.",
+      "kor": "혼자인 사람은 다른 사람들을 두려워하기 때문에 혼자다.",
+      "rus": "Каждый одинокий человек одинок из-за страха перед окружающими.",
+      "fin": "Jokainen yksinäinen ihminen on yksin, koska hän pelkää muita ihmisiä.",
+      "tlh": "latlh ghot tay'vIpmo' mobwI' mob."
+    },
+    "text": "孤独な人は、他人を恐れるから一人なのだ。"
+  }
+]

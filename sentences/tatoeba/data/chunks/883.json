@@ -1,0 +1,545 @@
+[
+  {
+    "id": "2744685",
+    "transcription": "トムはフランス[語|ご]を[知|し]らない。",
+    "translations": {
+      "eng": "Tom doesn't know French.",
+      "npi": "टम फ्रान्सेली जान्दैन।"
+    },
+    "text": "トムはフランス語を知らない。"
+  },
+  {
+    "id": "2744690",
+    "transcription": "トムはフランス[語|ご]が[流暢|りゅう|ちょう]です。",
+    "translations": {
+      "eng": "Tom is fluent in French.",
+      "deu": "Tom spricht fließend Französisch.",
+      "rus": "Том свободно говорит по-французски."
+    },
+    "text": "トムはフランス語が流暢です。"
+  },
+  {
+    "id": "2744723",
+    "transcription": "[大|たい]したことじゃない。",
+    "translations": {
+      "eng": "It isn't a big deal.",
+      "deu": "Es ist keine große Sache.",
+      "cmn": "这没什么大不了的。"
+    },
+    "text": "大したことじゃない。"
+  },
+  {
+    "id": "2744726",
+    "transcription": "[大|たい]したことじゃないよ。",
+    "translations": {
+      "eng": "It's no big deal."
+    },
+    "text": "大したことじゃないよ。"
+  },
+  {
+    "id": "2744747",
+    "transcription": "トムはフランス[語|ご]がほとんど[話|はな]せません。",
+    "translations": {
+      "eng": "Tom speaks almost no French.",
+      "rus": "Том почти не говорит по-французски.",
+      "spa": "Tom casi no habla francés."
+    },
+    "text": "トムはフランス語がほとんど話せません。"
+  },
+  {
+    "id": "2744763",
+    "transcription": "[今日|きょう]の[晩|ばん]ご[飯|はん]はカレーがいいな。",
+    "translations": {
+      "spa": "Hoy cenaré curry.",
+      "ind": "Sepertinya enak jika malam ini makan kare.",
+      "por": "Seria bom se a janta de hoje fosse curry.",
+      "eng": "Curry would be good for dinner today."
+    },
+    "text": "今日の晩ご飯はカレーがいいな。"
+  },
+  {
+    "id": "2744796",
+    "transcription": "[今日|きょう]の[晩|ばん]ご[飯|はん]カレーだといいな。",
+    "translations": {
+      "deu": "Hoffentlich gibt es heute zum Abendessen Karē.",
+      "fra": "J'espère qu'il y a du curry au dîner d'aujourd'hui.",
+      "fin": "Olisipa tänään illalliseksi curria.",
+      "rus": "Надеюсь, сегодня на ужин будет карри.",
+      "eng": "It'd be nice if we had curry for dinner tonight.",
+      "ind": "Sepertinya enak jika malam ini makan kari."
+    },
+    "audio": {
+      "id": "165511",
+      "author": "yomi"
+    },
+    "text": "今日の晩ご飯カレーだといいな。"
+  },
+  {
+    "id": "2744807",
+    "transcription": "[昨日|きのう]の[夜|よる]はカレーだった。",
+    "translations": {
+      "eng": "I had curry last night.",
+      "rus": "Вчера на ужин был карри.",
+      "cmn": "我昨晚吃了咖喱。",
+      "deu": "Gestern Abend gab es Curry."
+    },
+    "text": "昨日の夜はカレーだった。"
+  },
+  {
+    "id": "2746962",
+    "transcription": "[日本|に|ほん]で[2|に][番目|ばん|め]に[高|たか]い[山|やま]は[何|なん]だと[思|おも]う？",
+    "translations": {
+      "eng": "What do you think is the second tallest mountain in Japan?",
+      "fra": "Quelle est la deuxième montagne la plus grande au Japon à ton avis ?",
+      "rus": "Какая, по-твоему, вторая по высоте гора в Японии?",
+      "spa": "¿Cuál crees que es la segunda montaña más alta de Japón?",
+      "fin": "Minkä luulet olevan Japanin toiseksi korkein vuori?",
+      "vie": "Bạn nghĩ ngọn núi nào cao thứ hai Nhật Bản?"
+    },
+    "text": "日本で2番目に高い山は何だと思う？"
+  },
+  {
+    "id": "2746990",
+    "transcription": "トムとメアリーは[音楽|おん|がく]に[合|あ]わせて[踊|おど]っていた。",
+    "translations": {
+      "eng": "Tom and Mary were dancing to the music.",
+      "deu": "Tom und Maria tanzten zu der Musik.",
+      "rus": "Том и Мэри танцевали под музыку.",
+      "vie": "Tom và Mary nhảy múa theo điệu nhạc."
+    },
+    "text": "トムとメアリーは音楽に合わせて踊っていた。"
+  },
+  {
+    "id": "2747591",
+    "transcription": "「まさかトムが[勝|か]つとは[思|おも]わなかったなあ」「[僕|ぼく]もだよ」",
+    "translations": {
+      "eng": "\"I never thought Tom would win.\" \"Me neither.\"",
+      "cmn": "“我没想到汤姆会赢。” “我也是。”",
+      "deu": "„Ich hätte nie gedacht, dass Tom gewinnt.“ – „Ich auch nicht.“"
+    },
+    "text": "「まさかトムが勝つとは思わなかったなあ」「僕もだよ」"
+  },
+  {
+    "id": "2747603",
+    "transcription": "[昨日|きのう]あんなに[夜|よる][更|ふ]かしするんじゃなかった。",
+    "translations": {
+      "eng": "I shouldn't have stayed up so late last night.",
+      "rus": "Не надо мне было вчера засиживаться так допоздна.",
+      "deu": "Ich hätte gestern nicht so lange aufbleiben sollen!"
+    },
+    "text": "昨日あんなに夜更かしするんじゃなかった。"
+  },
+  {
+    "id": "2748282",
+    "transcription": "[半径|はん|けい][r|アール]の[球|きゅう]に[内接|ない|せつ]する[直|ちょく][円錐|えん|すい]の[体積|たい|せき]の[最大|さい|だい][値|ち]を[求|もと]めよ。",
+    "translations": {
+      "deu": "Bestimme das Volumen des größten geraden Kreiskegels, der sich einer Kugel vom Radius 𝑟 einbeschreiben lässt.",
+      "rus": "Определите максимальный объем прямого кругового конуса, вписанного в сферу с радиусом r."
+    },
+    "text": "半径rの球に内接する直円錐の体積の最大値を求めよ。"
+  },
+  {
+    "id": "2748693",
+    "transcription": "[僕|ぼく]もトムみたいになりたいな。",
+    "translations": {
+      "deu": "Ich will auch so wie Tom werden.",
+      "spa": "Yo también quisiera ser como Tom.",
+      "eng": "I, too, would like to be like Tom."
+    },
+    "text": "僕もトムみたいになりたいな。"
+  },
+  {
+    "id": "2748990",
+    "transcription": "この[近|ちか]くに[ATM|エーティーエム]はありますか？",
+    "translations": {
+      "rus": "Здесь поблизости есть банкомат?",
+      "fin": "Onko tässä jossain lähellä pankkiautomaattia?",
+      "eng": "Is there an ATM near here?",
+      "ind": "Apakah ada ATM di dekat sini?"
+    },
+    "audio": {
+      "id": "165620",
+      "author": "Mizu"
+    },
+    "text": "この近くにATMはありますか？"
+  },
+  {
+    "id": "2749535",
+    "transcription": "あなたは、[聴衆|ちょう|しゅう]が[何|なに]を[望|のぞ]んでいるのだと[思|おも]いますか？",
+    "translations": {
+      "eng": "What do you think the audience wants?",
+      "rus": "Как ты думаешь, чего хотят слушатели?",
+      "vie": "Bạn nghĩ là khán giả đang mong muốn điều gì?",
+      "deu": "Was, denkst du, wünscht sich das Publikum?"
+    },
+    "text": "あなたは、聴衆が何を望んでいるのだと思いますか？"
+  },
+  {
+    "id": "2749544",
+    "transcription": "トムは[彼|かれ]らの[名前|な|まえ]を[知|し]らなかった。",
+    "translations": {
+      "deu": "Tom wusste nicht, wie sie hießen.",
+      "eng": "Tom didn't know their names.",
+      "arq": "توم لم يعلم أسماءهم"
+    },
+    "text": "トムは彼らの名前を知らなかった。"
+  },
+  {
+    "id": "2749602",
+    "transcription": "トムは[秘書|ひ|しょ]に[口述|こう|じゅつ][筆記|ひっ|き]で[手紙|て|がみ]を[書|か]かせた。",
+    "translations": {
+      "eng": "Tom dictated a letter to his secretary.",
+      "deu": "Tom diktierte seiner Sekretärin einen Brief."
+    },
+    "text": "トムは秘書に口述筆記で手紙を書かせた。"
+  },
+  {
+    "id": "2749698",
+    "transcription": "トムはきっと[君|きみ]に[言|い]ったはずだよ。",
+    "translations": {
+      "eng": "I'm sure Tom told you."
+    },
+    "text": "トムはきっと君に言ったはずだよ。"
+  },
+  {
+    "id": "2749699",
+    "transcription": "この[薬|くすり]は[本当|ほん|とう]に[効|き]きますか？",
+    "translations": {
+      "eng": "Does this medicine actually help?",
+      "rus": "Это лекарство действительно эффективно?"
+    },
+    "text": "この薬は本当に効きますか？"
+  },
+  {
+    "id": "2749716",
+    "transcription": "[君|きみ]を[捕|つか]まえにやって[来|き]たのではないよ。",
+    "translations": {
+      "eng": "I'm not here to arrest you."
+    },
+    "text": "君を捕まえにやって来たのではないよ。"
+  },
+  {
+    "id": "2749745",
+    "transcription": "[私|わたし]はドアを[開|あ]けっ[放|ぱな]しにしていないよ。",
+    "translations": {
+      "eng": "I didn't leave the door open.",
+      "deu": "Ich habe die Tür nicht offengelassen.",
+      "slk": "Nenechal som dvere otvorené."
+    },
+    "text": "私はドアを開けっ放しにしていないよ。"
+  },
+  {
+    "id": "2749752",
+    "transcription": "[私|わたし]が[今|いま][出来|で|き]るのは[待|ま]つことだけだ。",
+    "translations": {
+      "deu": "Im Moment kann ich nichts anderes tun, als zu warten."
+    },
+    "text": "私が今出来るのは待つことだけだ。"
+  },
+  {
+    "id": "2749771",
+    "transcription": "ここへ[来|き]て[見|み]てみなよ。",
+    "translations": {
+      "eng": "Come here and give it a look."
+    },
+    "text": "ここへ来て見てみなよ。"
+  },
+  {
+    "id": "2750113",
+    "transcription": "[今日|きょう]は[日差|ひ|ざ]しの[割|わり]に[肌寒|はだ|さむ]い[一|いち][日|にち]でした。",
+    "translations": {
+      "fin": "Tänään oli viileä päivä auringonpaisteesta huolimatta.",
+      "deu": "Dafür, dass die Sonne schien, war es heute recht kühl.",
+      "eng": "Even though it was sunny today, it was quite cold."
+    },
+    "text": "今日は日差しの割に肌寒い一日でした。"
+  },
+  {
+    "id": "2750248",
+    "transcription": "[他|ほか]に[質問|しつ|もん]はある？",
+    "translations": {
+      "eng": "Do you still have questions?",
+      "rus": "У тебя ещё есть вопросы?",
+      "deu": "Hast du noch Fragen?"
+    },
+    "text": "他に質問はある？"
+  },
+  {
+    "id": "2750250",
+    "transcription": "[他|ほか]に[質問|しつ|もん]はありますか？",
+    "translations": {
+      "eng": "Do you have any more questions?",
+      "deu": "Haben Sie noch Fragen?",
+      "rus": "У вас есть ещё вопросы?",
+      "fin": "Onko sinulla vielä jotain kysyttävää?",
+      "ita": "Ha altre domande?"
+    },
+    "audio": {
+      "id": "165636",
+      "author": "Mizu"
+    },
+    "text": "他に質問はありますか？"
+  },
+  {
+    "id": "2750253",
+    "transcription": "もう[少|すこ]し[時間|じ|かん]を[下|くだ]さい。",
+    "translations": {
+      "eng": "Please give me a little more time.",
+      "rus": "Дайте мне еще немного времени, пожалуйста.",
+      "deu": "Geben Sie mir bitte noch etwas Zeit!"
+    },
+    "text": "もう少し時間を下さい。"
+  },
+  {
+    "id": "2750301",
+    "transcription": "[水泳|すい|えい]は[好|す]きですか？",
+    "translations": {
+      "rus": "Вы любите плавать?",
+      "fin": "Tykkääk sä uida?",
+      "cmn": "你喜欢游泳吗？",
+      "nld": "Hou je van zwemmen?",
+      "spa": "¿Os gusta la natación?"
+    },
+    "audio": {
+      "id": "165637",
+      "author": "Mizu"
+    },
+    "text": "水泳は好きですか？"
+  },
+  {
+    "id": "2750304",
+    "transcription": "[水泳|すい|えい][好|す]きなの？",
+    "translations": {
+      "eng": "Do you like swimming?",
+      "deu": "Schwimmst du gerne?",
+      "rus": "Любишь плавать?",
+      "fin": "Tykkäätkö uida?"
+    },
+    "text": "水泳好きなの？"
+  },
+  {
+    "id": "2751135",
+    "transcription": "ギターの[弦|げん]が[切|き]れた。",
+    "translations": {
+      "eng": "A string on my guitar broke.",
+      "cmn": "我弄断了我吉他的一根弦。",
+      "spa": "Se me cortó una cuerda de la guitarra.",
+      "fin": "Kitaran kieli katkesi."
+    },
+    "text": "ギターの弦が切れた。"
+  },
+  {
+    "id": "2751161",
+    "transcription": "こんなに[本音|ほん|ね]で[話|はな]したの、トムが[初|はじ]めてかも。",
+    "translations": {
+      "deu": "Ich glaube, du bist der erste, dem gegenüber ich so offen war, Tom."
+    },
+    "text": "こんなに本音で話したの、トムが初めてかも。"
+  },
+  {
+    "id": "2751760",
+    "transcription": "そんなじろじろ[見|み]つめないでください。",
+    "translations": {
+      "deu": "Starr doch nicht so!",
+      "eng": "Please don't stare at me like that."
+    },
+    "text": "そんなじろじろ見つめないでください。"
+  },
+  {
+    "id": "2751831",
+    "transcription": "ちょっとトイレ[行|い]ってくる。",
+    "translations": {
+      "deu": "Ich geh’ mal kurz aufs Klo.",
+      "nob": "Jeg må rett på toalettet.",
+      "nld": "Ik ga even naar de wc.",
+      "spa": "Voy al baño rapidito."
+    },
+    "text": "ちょっとトイレ行ってくる。"
+  },
+  {
+    "id": "2752642",
+    "transcription": "やばい、[車|くるま]の[鍵|かぎ]なくしちゃった。",
+    "translations": {
+      "deu": "O nein! Ich habe den Autoschlüssel verloren!",
+      "rus": "Чёрт, ключи от машины посеял.",
+      "eng": "Oh no! I lost the car key."
+    },
+    "text": "やばい、車の鍵なくしちゃった。"
+  },
+  {
+    "id": "2752667",
+    "transcription": "[面倒|めん|ど]くさいことは[嫌|きら]いなんだ。",
+    "translations": {
+      "deu": "Ich hasse aufwendige Sachen.",
+      "rus": "Ненавижу раздражающие вещи.",
+      "eng": "I hate troublesome things."
+    },
+    "text": "面倒くさいことは嫌いなんだ。"
+  },
+  {
+    "id": "2752670",
+    "transcription": "トムのメアド[教|おし]えて。",
+    "translations": {
+      "deu": "Gib mir mal Toms Netzpostadresse!",
+      "eng": "Tell me Tom's email address.",
+      "fin": "Kerro Tomin spostiosoite.",
+      "cmn": "告诉我汤姆的邮箱地址吧。"
+    },
+    "text": "トムのメアド教えて。"
+  },
+  {
+    "id": "2752672",
+    "transcription": "トム、メアド[教|おし]えて。",
+    "translations": {
+      "eng": "Tom, tell me your email address.",
+      "deu": "Tom, gib mir mal deine Netzpostadresse!",
+      "fin": "Tom, kerro spostiosoitteesi.",
+      "rus": "Том, электронную почту свою скажи.",
+      "nld": "Tom, geef eens jouw e-mailadres.",
+      "spa": "Tom, dime tu e-mail.",
+      "ita": "Tom, dammi il tuo indirizzo di email."
+    },
+    "audio": {
+      "id": "165680",
+      "author": "huizi99"
+    },
+    "text": "トム、メアド教えて。"
+  },
+  {
+    "id": "2752677",
+    "transcription": "[俺|おれ]が[弱|よわ]みを[見|み]せられるのはトムだけだよ。",
+    "translations": {
+      "nob": "Tom er den eneste jeg tør vise mine svake sider til.",
+      "deu": "Der Einzige, gegenüber dem ich Schwäche zeigen kann, bist du, Tom.",
+      "rus": "Я, Том, только тебе позволяю видеть свои слабости."
+    },
+    "text": "俺が弱みを見せられるのはトムだけだよ。"
+  },
+  {
+    "id": "2752681",
+    "transcription": "トムは[多分|た|ぶん]ゲイかバイだと[思|おも]う。",
+    "translations": {
+      "eng": "Tom is either gay or bisexual, I think.",
+      "deu": "Tom ist, denke ich, entweder schwul oder bi."
+    },
+    "text": "トムは多分ゲイかバイだと思う。"
+  },
+  {
+    "id": "2752683",
+    "transcription": "トムのそういうところ[好|す]き。",
+    "translations": {
+      "deu": "Das mag ich an dir, Tom.",
+      "eng": "I like that about Tom."
+    },
+    "text": "トムのそういうところ好き。"
+  },
+  {
+    "id": "2752686",
+    "transcription": "いま[暇|ひま]？",
+    "translations": {
+      "eng": "Are you free right now?",
+      "deu": "Hast du jetzt Zeit?",
+      "fra": "T’es libre, là ?",
+      "por": "Você está livre?",
+      "rus": "Ты сейчас свободен?",
+      "ind": "Kamu nganggur nggak sekarang?",
+      "kor": "지금 한가해?",
+      "cmn": "现在有空吗？",
+      "fin": "Oletko nyt vapaana?",
+      "pol": "Masz teraz czas?",
+      "spa": "¿Tienes tiempo ahora?",
+      "uzb": "Hozir bo'shmisan?",
+      "khm": "ទំនេរអត់ឥឡូវ?"
+    },
+    "audio": {
+      "id": "165681",
+      "author": "yomi"
+    },
+    "text": "いま暇？"
+  },
+  {
+    "id": "2752687",
+    "transcription": "ガキの[頃|ころ]って[後先|あと|さき][考|かんが]えずにとんでもないことやるよね。",
+    "translations": {
+      "ita": "Da ragazzi si è così incoscienti che si fanno cose impensabili."
+    },
+    "text": "ガキの頃って後先考えずにとんでもないことやるよね。"
+  },
+  {
+    "id": "2752775",
+    "transcription": "[夢精|む|せい]ってしたことある？",
+    "translations": {
+      "eng": "Have you ever had a wet dream?",
+      "deu": "Hattest du schon einmal einen feuchten Traum?",
+      "rus": "У тебя когда-нибудь были поллюции?",
+      "spa": "¿Alguna vez has tenido un sueño húmedo?"
+    },
+    "text": "夢精ってしたことある？"
+  },
+  {
+    "id": "2752778",
+    "transcription": "お[風呂|ふ|ろ][入|はい]ってこようかな。",
+    "translations": {
+      "eng": "I think that I'll go and take a bath."
+    },
+    "text": "お風呂入ってこようかな。"
+  },
+  {
+    "id": "2752781",
+    "transcription": "トム[大好|だい|す]き！",
+    "translations": {
+      "eng": "I love you Tom!",
+      "deu": "Ich liebe dich, Tom!",
+      "rus": "Я люблю тебя, Том!",
+      "fin": "Tom, minä rakastan sinua!",
+      "fra": "J’aime beaucoup Tom !",
+      "pol": "Kocham Toma!"
+    },
+    "text": "トム大好き！"
+  },
+  {
+    "id": "2753553",
+    "transcription": "[地震|じ|しん]はいつ[何|なん][時|どき][起|お]こるか[分|わ]からない。",
+    "translations": {
+      "lit": "Neįmanoma nuspėti, kada ir kur gali įvykti žemės drebėjimas.",
+      "eng": "You never know when an earthquake will happen.",
+      "deu": "Man weiß nie, wann ein Erdbeben kommt."
+    },
+    "text": "地震はいつ何時起こるか分からない。"
+  },
+  {
+    "id": "2756970",
+    "transcription": "[私|わたし]は[言語|げん|ご][学|がく][専攻|せん|こう]です。",
+    "translations": {
+      "epo": "Mi studas lingvistikon.",
+      "deu": "Ich studiere Sprachwissenschaft.",
+      "rus": "Я специализируюсь на языкознании.",
+      "cmn": "我的主修是語言學。",
+      "eng": "My major is linguistics.",
+      "vie": "Tôi đang học chuyên ngành ngôn ngữ học."
+    },
+    "text": "私は言語学専攻です。"
+  },
+  {
+    "id": "2757005",
+    "transcription": "[日本|に|ほん]には[猫|ねこ]が[駅長|えき|ちょう]を[務|つと]める[駅|えき]がある。",
+    "translations": {
+      "deu": "In Japan gibt es Bahnhöfe mit einer Katze als Vorsteher.",
+      "nds": "In Japan gifft dat Bahnhööv mit en Katt as Vörstaher.",
+      "cmn": "在日本，有站長是貓的車站。",
+      "nob": "I Japan er det en stasjon hvor stasjonsmesteren er en katt.",
+      "eng": "In Japan there are train stations with a cat for a stationmaster."
+    },
+    "text": "日本には猫が駅長を務める駅がある。"
+  },
+  {
+    "id": "2757399",
+    "transcription": "イースターは、[春分|しゅん|ぶん][後|ご]の[最初|さい|しょ]の[満月|まん|げつ]の[次|つぎ]の[日曜日|にち|よう|び]に[祝|いわ]われる。",
+    "translations": {
+      "deu": "Ostern wird an dem Sonntag, der auf den ersten Vollmond nach der Frühlings-Tagundnachtgleiche folgt, gefeiert.",
+      "rus": "Пасха празднуется в первое воскресенье после весеннего полнолуния.",
+      "nld": "Pasen wordt gevierd op de zondag die volgt op de eerste volle maan na de lente-equinox."
+    },
+    "text": "イースターは、春分後の最初の満月の次の日曜日に祝われる。"
+  }
+]

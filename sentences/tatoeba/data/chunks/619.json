@@ -1,0 +1,490 @@
+[
+  {
+    "id": "221404",
+    "transcription": "この[車|くるま]はわたしのだ。",
+    "translations": {
+      "eng": "This car is mine."
+    },
+    "text": "この車はわたしのだ。"
+  },
+  {
+    "id": "221408",
+    "transcription": "この[車|くるま]はどこか[具合|ぐ|あい]が[悪|わる]いようだ。",
+    "translations": {
+      "eng": "It seems that something is wrong with this car.",
+      "pol": "Coś nie tak z tym samochodem."
+    },
+    "text": "この車はどこか具合が悪いようだ。"
+  },
+  {
+    "id": "221411",
+    "transcription": "この[車|くるま]はがらくた[同然|どう|ぜん]である。",
+    "translations": {
+      "eng": "This car is no better than junk.",
+      "spa": "Este auto no es más que chatarra."
+    },
+    "text": "この車はがらくた同然である。"
+  },
+  {
+    "id": "221414",
+    "transcription": "この[車|くるま]はあまりガソリンを[食|く]わない。",
+    "translations": {
+      "eng": "This car is very economical on gas.",
+      "tha": "รถคันนี้กินน้ำมันน้อย"
+    },
+    "text": "この車はあまりガソリンを食わない。"
+  },
+  {
+    "id": "221419",
+    "transcription": "この[車|くるま]は[５|ご][人|にん][乗|の]れる。",
+    "translations": {
+      "deu": "Dieser Wagen bietet fünf Leuten Platz.",
+      "spa": "En este auto caben cinco personas.",
+      "rus": "Эта машина может вместить пять человек."
+    },
+    "text": "この車は５人乗れる。"
+  },
+  {
+    "id": "221427",
+    "transcription": "[車|くるま]の[修理|しゅう|り]をお[願|ねが]いします。",
+    "translations": {
+      "eng": "Please repair the car.",
+      "pol": "Proszę o naprawę samochodu."
+    },
+    "text": "車の修理をお願いします。"
+  },
+  {
+    "id": "221429",
+    "transcription": "この[車|くるま]の[維持|い|じ]は[高|たか]くつく。",
+    "translations": {
+      "eng": "It is expensive running this car."
+    },
+    "text": "この車の維持は高くつく。"
+  },
+  {
+    "id": "221431",
+    "transcription": "この[車|くるま]のエンジンはおかしい。",
+    "translations": {
+      "eng": "Something is wrong with the engine of this car.",
+      "por": "O motor do carro está estranho."
+    },
+    "text": "この車のエンジンはおかしい。"
+  },
+  {
+    "id": "221432",
+    "transcription": "この[車|くるま]には[楽|らく]にその[山|やま]をのぼるだけの[力|ちから]がある。",
+    "translations": {
+      "eng": "This car has enough power to go up the mountain easily."
+    },
+    "text": "この車には楽にその山をのぼるだけの力がある。"
+  },
+  {
+    "id": "221437",
+    "transcription": "この[写真|しゃ|しん][大好|だい|す]き。",
+    "translations": {
+      "eng": "I love this photo.",
+      "heb": "אני מת על התמונה הזאת.",
+      "deu": "Ich liebe dieses Photo.",
+      "epo": "Mi ŝatas ĉi tiun bildon.",
+      "hun": "Szeretem ezt a képet.",
+      "spa": "Me encanta esta foto.",
+      "swe": "Jag älskar den här bilden.",
+      "rus": "Я люблю этот снимок.",
+      "fin": "Tämä on ihana kuva.",
+      "ita": "Mi piace molto questa foto.",
+      "got": "𐍆𐍂𐌹𐌾𐍉 𐌸𐌰𐌽𐌰 𐌼𐌰𐌽𐌻𐌴𐌹𐌺𐌰𐌽.",
+      "vie": "Tôi rất thích bức ảnh này."
+    },
+    "text": "この写真大好き。"
+  },
+  {
+    "id": "221440",
+    "transcription": "この[写真|しゃ|しん]を[見|み]ると[必|かなら]ず[父|ちち]を[思|おも]い[出|だ]す。",
+    "translations": {
+      "eng": "I never see this picture without thinking of my father."
+    },
+    "text": "この写真を見ると必ず父を思い出す。"
+  },
+  {
+    "id": "221444",
+    "transcription": "この[写真|しゃ|しん]を[見|み]ると[私|わたし]は[学生|がく|せい][時代|じ|だい]を[思|おも]い[出|だ]す。",
+    "translations": {
+      "deu": "Das Bild erinnert mich an meine Schulzeit.",
+      "rus": "Когда я смотрю на эту фотографию, то вспоминаю студенческие годы.",
+      "eng": "This picture reminds me of my school days."
+    },
+    "text": "この写真を見ると私は学生時代を思い出す。"
+  },
+  {
+    "id": "221445",
+    "transcription": "この[写真|しゃ|しん]を[見|み]るとむかつく。",
+    "translations": {
+      "eng": "I always view this photo with disgust.",
+      "heb": "התצלום הזה מעורר בי בחילה."
+    },
+    "text": "この写真を見るとむかつく。"
+  },
+  {
+    "id": "221450",
+    "transcription": "この[写真|しゃ|しん]を[見|み]ると、[私|わたし]は[必|かなら]ず[子供|こ|ども]のころを[思|おも]い[出|だ]す。",
+    "translations": {
+      "eng": "I never see this picture without being reminded of my childhood.",
+      "kor": "이 사진을 보면, 나는 반드시 어렸을 때를 기억한다.",
+      "zsm": "Saya tidak pernah melihat gambar ini tanpa teringat zaman kanak-kanak saya."
+    },
+    "text": "この写真を見ると、私は必ず子供のころを思い出す。"
+  },
+  {
+    "id": "221451",
+    "transcription": "この[写真|しゃ|しん]を[見|み]ると、[私|わたし]は[家族|か|ぞく]のことを[思|おも]い[出|だ]す。",
+    "translations": {
+      "eng": "The picture reminds me of my family.",
+      "spa": "Cuando veo esta fotografía, me acuerdo de mi familia.",
+      "deu": "Dieses Bild erinnert mich an meine Familie."
+    },
+    "text": "この写真を見ると、私は家族のことを思い出す。"
+  },
+  {
+    "id": "221454",
+    "transcription": "この[写真|しゃ|しん]を[見|み]て[下|くだ]さい。",
+    "translations": {
+      "eng": "Please take a look at this picture."
+    },
+    "text": "この写真を見て下さい。"
+  },
+  {
+    "id": "221457",
+    "transcription": "この[写真|しゃ|しん]をよく[見|み]て。",
+    "translations": {
+      "fra": "Regarde bien cette photo.",
+      "eng": "Take a close look at this picture."
+    },
+    "text": "この写真をよく見て。"
+  },
+  {
+    "id": "221463",
+    "transcription": "この[写真|しゃ|しん]の[猫|ねこ]を[見|み]かけたら、お[電話|でん|わ]ください。",
+    "translations": {
+      "eng": "If you see the cat in this photo, please call.",
+      "hun": "Ha látja a képen szereplő macskát, hívjon kérem.",
+      "pol": "Jeśli zobaczysz kota jak na tym zdjęciu, zadzwoń.",
+      "deu": "Wenn Sie die Katze auf diesem Foto sehen, rufen Sie bitte an.",
+      "epo": "Se vi vidos la katon en ĉi tiu fotografaĵo, bonvolu telefoni."
+    },
+    "text": "この写真の猫を見かけたら、お電話ください。"
+  },
+  {
+    "id": "221478",
+    "transcription": "この[実|み]はたべられます。",
+    "translations": {
+      "eng": "This berry is good to eat.",
+      "fra": "Cette baie est bonne à manger.",
+      "pol": "Ten owoc jest jadalny.",
+      "hun": "Ez a bogyó ehető.",
+      "npi": "यो बेरी खान सकिने छ।"
+    },
+    "text": "この実はたべられます。"
+  },
+  {
+    "id": "221479",
+    "transcription": "この[質問|しつ|もん]は[答|こた]えにくいな。",
+    "translations": {
+      "eng": "This question is difficult to answer.",
+      "fra": "Il est difficile de répondre à cette question.",
+      "slk": "Na túto otázku je ťažké odpovedať."
+    },
+    "text": "この質問は答えにくいな。"
+  },
+  {
+    "id": "221482",
+    "transcription": "この[質問|しつ|もん]に[答|こた]えられますか。",
+    "translations": {
+      "fra": "Peux-tu répondre à cette question ?",
+      "eng": "Can you answer this question?",
+      "spa": "¿Podéis responder a esta pregunta?",
+      "pol": "Możesz odpowiedzieć na to pytanie?",
+      "fin": "Osaatko vastata tähän kysymykseen?"
+    },
+    "text": "この質問に答えられますか。"
+  },
+  {
+    "id": "221488",
+    "transcription": "この[失敗|しっ|ぱい]は、[君|きみ][自身|じ|しん]の[怠慢|たい|まん]から[起|お]こったものだ。",
+    "translations": {
+      "eng": "This failure was brought about by your own negligence.",
+      "pol": "Ta porażka wynika tylko z twojego własnego zaniedbania."
+    },
+    "text": "この失敗は、君自身の怠慢から起こったものだ。"
+  },
+  {
+    "id": "221494",
+    "transcription": "この[辞書|じ|しょ]を[使|つか]っても[良|い]いですか。",
+    "translations": {
+      "eng": "Can I use this dictionary?",
+      "fra": "Puis-je utiliser ce dictionnaire ?",
+      "deu": "Darf ich dieses Wörterbuch benutzen?",
+      "dan": "Må jeg bruge denne ordbog?",
+      "spa": "¿Puedo usar este diccionario?",
+      "por": "Posso usar este dicionário?",
+      "cmn": "我能用這本字典嗎？"
+    },
+    "text": "この辞書を使っても良いですか。"
+  },
+  {
+    "id": "221498",
+    "transcription": "この[辞書|じ|しょ]は[大|おお]きさが[手|て]ごろだ。",
+    "translations": {
+      "eng": "This dictionary is handy in size.",
+      "deu": "Dieses Wörterbuch hat ein praktisches Format."
+    },
+    "text": "この辞書は大きさが手ごろだ。"
+  },
+  {
+    "id": "221499",
+    "transcription": "この[辞書|じ|しょ]は[信頼|しん|らい]できるよ。",
+    "translations": {
+      "eng": "You can depend on this dictionary.",
+      "epo": "Vi povas fidi ĉi tiun vortaron.",
+      "spa": "Puedes confiar en este diccionario."
+    },
+    "text": "この辞書は信頼できるよ。"
+  },
+  {
+    "id": "221503",
+    "transcription": "この[辞書|じ|しょ]は[私|わたし]に[大|おお]いに[役立|やく|だ]った。",
+    "translations": {
+      "eng": "This dictionary has been of great use to me.",
+      "hun": "Ez a szótár nagyon hasznos volt számomra."
+    },
+    "text": "この辞書は私に大いに役立った。"
+  },
+  {
+    "id": "221508",
+    "transcription": "この[辞書|じ|しょ]は[主|おも]に[高校生|こう|こう|せい]を[対象|たい|しょう]としたものです。",
+    "translations": {
+      "eng": "This dictionary is primarily intended for high school students."
+    },
+    "text": "この辞書は主に高校生を対象としたものです。"
+  },
+  {
+    "id": "221509",
+    "transcription": "この[辞書|じ|しょ]は[高|たか]い。",
+    "translations": {
+      "eng": "This dictionary is expensive.",
+      "deu": "Dieses Wörterbuch ist teuer."
+    },
+    "text": "この辞書は高い。"
+  },
+  {
+    "id": "221521",
+    "transcription": "この[辞書|じ|しょ]はすごく[役|やく]に[立|た]つんだ。",
+    "translations": {
+      "eng": "This dictionary is very useful.",
+      "spa": "Este diccionario es sorprendentemente útil.",
+      "deu": "Dieses Wörterbuch ist sehr nützlich.",
+      "epo": "Ĉi tiu vortaro estas tre utila.",
+      "rus": "Этот словарь очень полезный."
+    },
+    "text": "この辞書はすごく役に立つんだ。"
+  },
+  {
+    "id": "221527",
+    "transcription": "この[辞書|じ|しょ]は[１２|じゅうに][冊|さつ]ある。",
+    "translations": {
+      "fra": "Ce dictionnaire compte 12 volumes.",
+      "spa": "Este diccionario tiene doce tomos.",
+      "rus": "В этом словаре двенадцать томов.",
+      "hun": "Ez a szótár tizenkét kötetes.",
+      "slk": "Tento slovník má dvanásť zväzkov."
+    },
+    "text": "この辞書は１２冊ある。"
+  },
+  {
+    "id": "221529",
+    "transcription": "この[辞書|じ|しょ]の[用例|よう|れい]はわかりやすい。",
+    "translations": {
+      "eng": "The examples in this dictionary are easy to understand.",
+      "spa": "Los ejemplos de este diccionario son fáciles de entender."
+    },
+    "text": "この辞書の用例はわかりやすい。"
+  },
+  {
+    "id": "221533",
+    "transcription": "この[辞書|じ|しょ]には[大|おお]いに[改善|かい|ぜん]の[余地|よ|ち]がある。",
+    "translations": {
+      "eng": "There is plenty of room for improvement in this dictionary.",
+      "deu": "Dieses Wörterbuch könnte man noch stark verbessern.",
+      "epo": "Ĉi tiu vortaro ankoraŭ estas tre plibonigebla."
+    },
+    "text": "この辞書には大いに改善の余地がある。"
+  },
+  {
+    "id": "221534",
+    "transcription": "この[辞書|じ|しょ]には[情報|じょう|ほう]がたくさん[入|はい]っています。",
+    "translations": {
+      "eng": "This dictionary contains a lot of information.",
+      "tgl": "Maraming impormasyon itong diksiyunaryo.",
+      "deu": "Dieses Wörterbuch enthält viele Informationen.",
+      "spa": "Este diccionario contiene un montón de información.",
+      "vie": "Trong cuốn từ điển này có rất nhiều thông tin."
+    },
+    "text": "この辞書には情報がたくさん入っています。"
+  },
+  {
+    "id": "221544",
+    "transcription": "この[自動|じ|どう][販売|はん|ばい][機|き]は[故障|こ|しょう]しています。",
+    "translations": {
+      "eng": "This vending machine is out of order.",
+      "deu": "Der Automat funktioniert nicht.",
+      "tha": "เครื่องขายของอัตโนมัตินี้เสีย"
+    },
+    "text": "この自動販売機は故障しています。"
+  },
+  {
+    "id": "221551",
+    "transcription": "この[自転車|じ|てん|しゃ]は[誰|だれ]のものですか。",
+    "translations": {
+      "nob": "Hvem sin sykkel er dette?",
+      "spa": "¿De quién es esta bicicleta?",
+      "pol": "Czyj to rower?"
+    },
+    "text": "この自転車は誰のものですか。"
+  },
+  {
+    "id": "221553",
+    "transcription": "この[自転車|じ|てん|しゃ]は[修理|しゅう|り]する[必要|ひつ|よう]があるな。",
+    "translations": {
+      "eng": "This bike needs to be repaired.",
+      "cmn": "这辆自行车需要修理。",
+      "deu": "Dieses Fahrrad muss repariert werden."
+    },
+    "text": "この自転車は修理する必要があるな。"
+  },
+  {
+    "id": "221560",
+    "transcription": "この[自転車|じ|てん|しゃ]に[乗|の]っててひどい[事故|じ|こ]に[遭|あ]ったんです。",
+    "translations": {
+      "eng": "I had a terrible accident riding this bike."
+    },
+    "text": "この自転車に乗っててひどい事故に遭ったんです。"
+  },
+  {
+    "id": "221569",
+    "transcription": "この[次|つぎ]はもっと[早|はや]く[来|こ]よう。",
+    "translations": {
+      "eng": "Next time I'll come earlier.",
+      "spa": "La próxima vez vendré más temprano."
+    },
+    "text": "この次はもっと早く来よう。"
+  },
+  {
+    "id": "221576",
+    "transcription": "この[次|つぎ]いつ[集|あつ]まればよいのか[彼|かれ]に[聞|き]いてください。",
+    "translations": {
+      "eng": "Ask him when to get together next."
+    },
+    "text": "この次いつ集まればよいのか彼に聞いてください。"
+  },
+  {
+    "id": "221578",
+    "transcription": "この[時計|と|けい]、[喉|のど]から[手|て]が[出|で]るほど[欲|ほ]しかったんだ。",
+    "translations": {
+      "eng": "I wanted this watch so badly I could taste it.",
+      "rus": "Мне ужасно хотелось эти часы."
+    },
+    "text": "この時計、喉から手が出るほど欲しかったんだ。"
+  },
+  {
+    "id": "221584",
+    "transcription": "この[時計|と|けい]は[防水|ぼう|すい]です。",
+    "translations": {
+      "deu": "Diese Uhr ist wasserdicht.",
+      "spa": "Este reloj es a prueba de agua.",
+      "pol": "Ten zegarek jest wodoszczelny."
+    },
+    "text": "この時計は防水です。"
+  },
+  {
+    "id": "221588",
+    "transcription": "この[時計|と|けい]は[日本|に|ほん][製|せい]です。",
+    "translations": {
+      "eng": "This watch is made in Japan.",
+      "npi": "यो घडी जापानमा बनेको हो।"
+    },
+    "text": "この時計は日本製です。"
+  },
+  {
+    "id": "221592",
+    "transcription": "この[時計|と|けい]の[値段|ね|だん]はお[幾|いく]らですか。",
+    "translations": {
+      "eng": "What is the price of this watch?",
+      "spa": "¿Cuál es el precio de este reloj?",
+      "hun": "Mi az ára ennek az órának?"
+    },
+    "text": "この時計の値段はお幾らですか。"
+  },
+  {
+    "id": "221594",
+    "transcription": "この[時計|と|けい]は[正確|せい|かく]ですよ。",
+    "translations": {
+      "eng": "This clock is accurate.",
+      "fin": "Tämä kello on tarkka.",
+      "rus": "Эти часы точные."
+    },
+    "text": "この時計は正確ですよ。"
+  },
+  {
+    "id": "221595",
+    "transcription": "この[時計|と|けい]は[修理|しゅう|り]の[必要|ひつ|よう]がある。[一|いち][日|にち][２０|にじゅっ][分|ぷん]も[進|すす]む。",
+    "translations": {
+      "eng": "This watch needs to be fixed. It gains 20 minutes a day.",
+      "spa": "Hay que arreglar este reloj. Se adelanta veinte minutos en un día.",
+      "rus": "Эти часы нужно починить. Они спешат на 20 минут в день."
+    },
+    "text": "この時計は修理の必要がある。一日２０分も進む。"
+  },
+  {
+    "id": "221596",
+    "transcription": "この[時計|と|けい]は[修理|しゅう|り]する[必要|ひつ|よう]がある。",
+    "translations": {
+      "eng": "This watch needs to be fixed.",
+      "spa": "Hay que arreglar este reloj.",
+      "pol": "Ten zegarek trzeba naprawić."
+    },
+    "text": "この時計は修理する必要がある。"
+  },
+  {
+    "id": "221597",
+    "transcription": "この[時計|と|けい]は[時間|じ|かん]が[正確|せい|かく]だ。",
+    "translations": {
+      "deu": "Diese Uhr zeigt die Uhrzeit präzise an.",
+      "hun": "Ez az óra pontos."
+    },
+    "text": "この時計は時間が正確だ。"
+  },
+  {
+    "id": "221602",
+    "transcription": "この[時計|と|けい]は[故障|こ|しょう]している。",
+    "translations": {
+      "rus": "Эти часы не работают."
+    },
+    "text": "この時計は故障している。"
+  },
+  {
+    "id": "221605",
+    "transcription": "この[時計|と|けい]は[一|いち][万|まん][円|えん]だった。",
+    "translations": {
+      "fra": "Cette montre m'a coûté dix mille yen.",
+      "pol": "Ten zegarek kosztował dziesięć tysięcy jenów."
+    },
+    "text": "この時計は一万円だった。"
+  },
+  {
+    "id": "221607",
+    "transcription": "この[時計|と|けい]は[一|いち][日|にち]に[３|さん][分|ぷん][遅|おく]れます。",
+    "translations": {
+      "eng": "This clock loses three minutes a day."
+    },
+    "text": "この時計は一日に３分遅れます。"
+  }
+]

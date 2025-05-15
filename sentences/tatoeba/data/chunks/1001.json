@@ -1,0 +1,540 @@
+[
+  {
+    "id": "5961307",
+    "transcription": "[世界|せ|かい]を[変|か]えるためには、どうしたらいいですか。",
+    "translations": {
+      "eng": "How can we make a difference in the world?",
+      "nld": "Hoe kunnen we een verschil maken in de wereld?",
+      "deu": "Was könnte ich tun, um die Welt zu verändern?"
+    },
+    "text": "世界を変えるためには、どうしたらいいですか。"
+  },
+  {
+    "id": "5961312",
+    "transcription": "[音|おと]が[素晴|す|ば]らしいね。",
+    "translations": {
+      "nld": "Dit klinkt goed hoor."
+    },
+    "text": "音が素晴らしいね。"
+  },
+  {
+    "id": "5961315",
+    "transcription": "[彼女|かの|じょ]はその[会社|かい|しゃ]に[満足|まん|ぞく]している。",
+    "translations": {
+      "nld": "Zij is tevreden met het bedrijf.",
+      "eng": "She is pleased with the company."
+    },
+    "text": "彼女はその会社に満足している。"
+  },
+  {
+    "id": "5962359",
+    "transcription": "[次|つぎ]は[気|き]をつけてね。",
+    "translations": {
+      "eng": "Be careful next time.",
+      "rus": "В следующий раз будь осторожнее.",
+      "nld": "Wees voorzichtig de volgende keer.",
+      "fra": "Fais attention la prochaine fois.",
+      "pol": "Następnym razem uważaj na siebie."
+    },
+    "text": "次は気をつけてね。"
+  },
+  {
+    "id": "5975119",
+    "transcription": "[君|きみ]を[忘|わす]れられない。",
+    "translations": {
+      "kzj": "Au zou kaanu momohiiu diau.",
+      "lit": "Tavęs nepamiršiu.",
+      "nld": "Ik kan je niet vergeten.",
+      "fra": "Je ne peux pas t'oublier.",
+      "spa": "No me puedo olvidar de ti.",
+      "eng": "I can't forget about you."
+    },
+    "text": "君を忘れられない。"
+  },
+  {
+    "id": "5979566",
+    "transcription": "[Ｃ|シー][＋|プラ][＋|プラ]を[学|まな]ぼうとするたびに、ポインタに[手|て]こずる。",
+    "translations": {
+      "eng": "Every time I attempt to teach myself C++, I get stuck on pointers."
+    },
+    "text": "Ｃ＋＋を学ぼうとするたびに、ポインタに手こずる。"
+  },
+  {
+    "id": "5988005",
+    "transcription": "[私|わたし]の[犬|いぬ]はかわいいです。",
+    "translations": {
+      "eng": "My dog is cute.",
+      "nld": "Mijn hond is schattig.",
+      "fra": "Mon chien est mignon!",
+      "rus": "Моя собака милая."
+    },
+    "text": "私の犬はかわいいです。"
+  },
+  {
+    "id": "5988107",
+    "transcription": "[昨日|きのう]は[喫茶店|きっ|さ|てん]に[行|い]きました。",
+    "translations": {
+      "epo": "Hieraŭ mi iris al kafejo.",
+      "nld": "Gisteren kwam de winkelstraat tot leven.",
+      "fra": "Hier, je suis allé au café.",
+      "eng": "I went to the coffee shop yesterday."
+    },
+    "text": "昨日は喫茶店に行きました。"
+  },
+  {
+    "id": "6008928",
+    "transcription": "[古|ふる][池|いけ]や[蛙|かわず][飛|と]び[込|こ]む[水|みず]の[音|おと]",
+    "translations": {
+      "deu": "Am alten Weiher; Ein Frosch im Sprung; Ein leises Platschen."
+    },
+    "text": "古池や蛙飛び込む水の音"
+  },
+  {
+    "id": "6018106",
+    "transcription": "[大|たい][木|ぼく]の[下|した]で[休|やす]んだ。",
+    "translations": {
+      "nld": "Ik rustte uit onder de grote boom.",
+      "fra": "Je me suis reposé sous un grand arbre."
+    },
+    "text": "大木の下で休んだ。"
+  },
+  {
+    "id": "6018321",
+    "transcription": "[全|すべ]ては[経|た]つ。[愛|あい]は[残|のこ]る。",
+    "translations": {
+      "tir": "ኩሉ ይሓልፍ፡ ፍቕሪ ይተርፍ።",
+      "uig": "ھەممىسى كېتىپ، مۇھەببەتلا قالىدۇ.",
+      "deu": "Alles vergeht. Liebe bleibt."
+    },
+    "text": "全ては経つ。愛は残る。"
+  },
+  {
+    "id": "6018370",
+    "transcription": "ハーレーダビッドソンでのツーリングを[体験|たい|けん]したいです。",
+    "translations": {
+      "eng": "I'd like to experience a tour on a Harley Davidson."
+    },
+    "text": "ハーレーダビッドソンでのツーリングを体験したいです。"
+  },
+  {
+    "id": "6037174",
+    "transcription": "[今日|きょう]からタバコを[吸|す]いません。",
+    "translations": {
+      "eng": "I won't smoke from today on.",
+      "pol": "Od dzisiaj nie palę.",
+      "deu": "Ab heute rauche ich nicht mehr."
+    },
+    "text": "今日からタバコを吸いません。"
+  },
+  {
+    "id": "6037177",
+    "transcription": "トムは[私|わたし]より[賢|かしこ]い。",
+    "translations": {
+      "eng": "Tom is smarter than I am.",
+      "rus": "Том умнее меня.",
+      "deu": "Tom ist schlauer als ich.",
+      "fin": "Tomi on fiksumpi kuin minä.",
+      "pol": "Tom jest bardziej inteligentny niż ja.",
+      "ind": "Tom lebih cerdas dariku."
+    },
+    "text": "トムは私より賢い。"
+  },
+  {
+    "id": "6037213",
+    "transcription": "トムはこの[問題|もん|だい]の[解|と]き[方|かた]を[知|し]らなかった。",
+    "translations": {
+      "eng": "Tom didn't know how to solve this problem."
+    },
+    "text": "トムはこの問題の解き方を知らなかった。"
+  },
+  {
+    "id": "6037293",
+    "transcription": "なぜ[走|はし]らなかったの？",
+    "translations": {
+      "eng": "Why didn't you run?",
+      "fra": "Pourquoi tu n'as pas couru ?",
+      "rus": "Почему ты не побежал?",
+      "swe": "Varför sprang du inte?",
+      "deu": "Warum bist du nicht gerannt?",
+      "pol": "Dlaczego nie uciekłeś?"
+    },
+    "text": "なぜ走らなかったの？"
+  },
+  {
+    "id": "6037307",
+    "transcription": "[私|わたし]の[日記|にっ|き]を[読|よ]まないで。",
+    "translations": {
+      "eng": "Don't read my journal!",
+      "swe": "Läs inte min dagbok.",
+      "pol": "Nie czytaj mojego pamiętnika!"
+    },
+    "text": "私の日記を読まないで。"
+  },
+  {
+    "id": "6037346",
+    "transcription": "[彼|かれ]は[果物|くだ|もの]を[売|う]る。",
+    "translations": {
+      "eng": "He sells fruit.",
+      "swe": "Han säljer frukt.",
+      "cmn": "他卖水果。",
+      "vie": "Anh ấy bán hoa quả"
+    },
+    "text": "彼は果物を売る。"
+  },
+  {
+    "id": "6037355",
+    "transcription": "[私|わたし]は[生魚|なま|ざかな]を[食|た]べたことがない。",
+    "translations": {
+      "eng": "I've never eaten raw fish.",
+      "fra": "Je n'ai jamais mangé du poisson cru.",
+      "swe": "Jag har aldrig ätit rå fisk.",
+      "pol": "Nigdy nie jadłem surowej ryby."
+    },
+    "text": "私は生魚を食べたことがない。"
+  },
+  {
+    "id": "6044864",
+    "transcription": "エンターテインメントは、[日本|にほん]でもやっぱり[若者|わか|もの]に[人気|にん|き]がある。",
+    "translations": {
+      "eng": "Entertainment is still popular with young people in Japan."
+    },
+    "text": "エンターテインメントは、日本でもやっぱり若者に人気がある。"
+  },
+  {
+    "id": "6044865",
+    "transcription": "コンビニへ[行|い]くなら、クーポンを[持|も]って[行|い]く[方|ほう]がいいと[思|おも]うよ。",
+    "translations": {
+      "rus": "Если идешь в магазин, лучше брать с собой скидочный купон, я полагаю.",
+      "eng": "If you are going to a convenience store, it's better to bring a discount coupon along with you, I think."
+    },
+    "text": "コンビニへ行くなら、クーポンを持って行く方がいいと思うよ。"
+  },
+  {
+    "id": "6044870",
+    "transcription": "[YouTube|ユーチューブ]の[登録|とう|ろく]には[本名|ほん|みょう]と[住所|じゅう|しょ]が[要|い]ります。",
+    "translations": {
+      "rus": "Для регистрации на YouTube требуются реальное имя и адрес.",
+      "eng": "YouTube registration requires a real name and an address."
+    },
+    "text": "YouTubeの登録には本名と住所が要ります。"
+  },
+  {
+    "id": "6054189",
+    "transcription": "こちらが[私|わたし]の[父|ちち]です。",
+    "translations": {
+      "ita": "Questo è mio padre.",
+      "cmn": "这是我的爸爸.",
+      "eng": "This is my dad.",
+      "spa": "Este es mi padre.",
+      "swe": "Det här är min pappa.",
+      "pol": "To jest mój ojciec."
+    },
+    "text": "こちらが私の父です。"
+  },
+  {
+    "id": "6089608",
+    "transcription": "[痛|いた]い！",
+    "translations": {
+      "eng": "Ow! That hurts!",
+      "rus": "Больно!",
+      "ita": "Ahi!",
+      "swe": "Aj!",
+      "nld": "Auw!",
+      "pol": "Auć!",
+      "tur": "Canım yanıyor!",
+      "fin": "Sattuu!",
+      "por": "Isso dói!",
+      "spa": "¡Qué dolor!",
+      "cmn": "痛！",
+      "mfa": "sake!",
+      "ell": "Πονάει!"
+    },
+    "text": "痛い！"
+  },
+  {
+    "id": "6110487",
+    "transcription": "[明日|あした][天気|てん|き]はどうでしょうか。",
+    "translations": {
+      "pol": "Ciekawe jaka będzie jutro pogoda.",
+      "cmn": "明天天氣怎麼樣？",
+      "eng": "What's the weather going to be like tomorrow?",
+      "vie": "Thời tiết ngày mai thế nào?",
+      "dtp": "Okuro-kuro no tadau dinondo?",
+      "hsb": "Kajke wjedro budźe jutře?",
+      "slk": "Aké bude zajtra počasie?",
+      "npi": "भोलिको मौसम कस्तो रहनेछ?"
+    },
+    "text": "明日天気はどうでしょうか。"
+  },
+  {
+    "id": "6120440",
+    "transcription": "フランス[語|ご]の[先生|せん|せい]は[生徒|せい|と]の[質問|しつ|もん]に[立|た]ち[往生|おう|じょう]した。",
+    "translations": {
+      "slk": "Učiteľka francúzštiny bola zaskočená žiakovou otázkou."
+    },
+    "text": "フランス語の先生は生徒の質問に立ち往生した。"
+  },
+  {
+    "id": "6135207",
+    "transcription": "すべて[関係|かん|けい]がある。",
+    "translations": {
+      "eng": "Everything is connected.",
+      "pol": "Wszystko jest ze sobą powiązane."
+    },
+    "text": "すべて関係がある。"
+  },
+  {
+    "id": "6135239",
+    "transcription": "[彼|かれ]らは[一緒|いっ|しょ]に[休暇|きゅう|か]を[過|す]ごした。",
+    "translations": {
+      "eng": "They vacationed together.",
+      "pol": "Spędzili razem wakacje."
+    },
+    "text": "彼らは一緒に休暇を過ごした。"
+  },
+  {
+    "id": "6135398",
+    "transcription": "[答|こた]えた。",
+    "translations": {
+      "eng": "I answered.",
+      "kor": "대답했다.",
+      "pol": "Odpowiedziałam.",
+      "ind": "Sudah menjawab.",
+      "spa": "Respondió."
+    },
+    "text": "答えた。"
+  },
+  {
+    "id": "6142087",
+    "transcription": "[彼|かれ]は[焼|や]き[魚|ざかな][定食|てい|しょく][一|いち][人前|にん|まえ]を[注文|ちゅう|もん]した。",
+    "translations": {
+      "eng": "He ordered one grilled fish dinner.",
+      "fin": "Hän tilasi grillikala-aterian.",
+      "zsm": "Dia memesan satu makan malam ikan bakar."
+    },
+    "text": "彼は焼き魚定食一人前を注文した。"
+  },
+  {
+    "id": "6144807",
+    "transcription": "[髪|かみ][乾|かわ]かした？",
+    "translations": {
+      "spa": "¿Te secaste el cabello?",
+      "pol": "Wysuszyłaś włosy?",
+      "deu": "Hast du deine Haare getrocknet?",
+      "eng": "Did you dry your hair?",
+      "fin": "Kuvasiksä sun hiukset?",
+      "tur": "Saçını kuruttun mu?",
+      "mya": "ဆံပင် ခြောက်အောင် လုပ်ပြီးပြီလား ?"
+    },
+    "text": "髪乾かした？"
+  },
+  {
+    "id": "6151626",
+    "transcription": "[日本人|に|ほん|じん]の[人口|じん|こう]が[去年|きょ|ねん]より[３０|さんじゅう][万|まん][人|にん][以上|い|じょう][少|すく]なくなる。",
+    "translations": {
+      "eng": "The population of Japanese people is at least 300,000 fewer than last year.",
+      "rus": "Население Японии сократилось по меньшей мере на 300 тысяч человек по сравнению с прошлым годом."
+    },
+    "text": "日本人の人口が去年より３０万人以上少なくなる。"
+  },
+  {
+    "id": "6169686",
+    "transcription": "[君|きみ]の[服|ふく]と[自転車|じ|てん|しゃ]が[必要|ひつ|よう]だ。",
+    "translations": {
+      "eng": "I need your clothes and your bicycle.",
+      "rus": "Мне нужна твоя одежда и твой велосипед.",
+      "deu": "Ich brauche deine Kleider und dein Fahrrad.",
+      "pol": "Potrzebne mi są twoje ubrania i rower."
+    },
+    "text": "君の服と自転車が必要だ。"
+  },
+  {
+    "id": "6183620",
+    "transcription": "この[店|みせ]は[瀬戸物|せ|と|もの]を[売|う]っている。",
+    "translations": {
+      "deu": "Der Laden verkauft Tonwaren.",
+      "vie": "Cửa hàng này có bán đồ gốm sứ.",
+      "rus": "В этом магазине продаётся фарфор.",
+      "pol": "Ten sklep sprzedaje ceramikę.",
+      "spa": "Esta tienda vende cerámica.",
+      "fin": "Tämä kauppa myy posliinia.",
+      "eng": "This store sells pottery."
+    },
+    "text": "この店は瀬戸物を売っている。"
+  },
+  {
+    "id": "6183622",
+    "transcription": "トムは[歩|ある]くことさえも[出来|で|き]ない。",
+    "translations": {
+      "swe": "Tom kunde knappt gå.",
+      "deu": "Tom kann nicht einmal laufen.",
+      "rus": "Том даже ходить не может."
+    },
+    "text": "トムは歩くことさえも出来ない。"
+  },
+  {
+    "id": "6207168",
+    "transcription": "[僕|ぼく]は[右|みぎ][利|き]きです。",
+    "translations": {
+      "eng": "I'm right-handed.",
+      "fra": "Je suis droitier.",
+      "deu": "Ich bin Rechtshänder.",
+      "vie": "Tôi thuận tay phải.",
+      "kor": "나는 오른손잡이다.",
+      "tur": "Ben sağlağım."
+    },
+    "text": "僕は右利きです。"
+  },
+  {
+    "id": "6277533",
+    "transcription": "[彼女|カノ|ジョ]の[魔女|マ|ジョ][集会|シュウ|カイ]は[悪魔|アク|マ]を[召喚|ショウ|カン]する。",
+    "translations": {
+      "eng": "Her coven conjures the demons.",
+      "rus": "На её шабаше призывают дьявола.",
+      "deu": "Ihr Hexenzirkel beschwört die Dämonen."
+    },
+    "text": "彼女の魔女集会は悪魔を召喚する。"
+  },
+  {
+    "id": "6289888",
+    "transcription": "それがあの[人|ひと]の[目的|もく|てき]だと[思|おも]います。",
+    "translations": {
+      "fra": "Je pense que c'est son objectif.",
+      "deu": "Ich denke, dass das sein Ziel ist.",
+      "tur": "Bu onun amacıydı diye düşünüyorum.",
+      "pol": "Sądzę, że taki jest jego zamiar.",
+      "vie": "Tôi cho rằng đó là mục đích của cô ta."
+    },
+    "text": "それがあの人の目的だと思います。"
+  },
+  {
+    "id": "6289997",
+    "transcription": "ここではタバコを[吸|す]ってはいけません。",
+    "translations": {
+      "pol": "Tu nie wolno palić.",
+      "tur": "Burada sigara içilmez.",
+      "eng": "You can't smoke here.",
+      "spa": "No se debe fumar aquí.",
+      "kor": "여기서는 담배를 피우면 안 됩니다.",
+      "deu": "Man darf hier nicht rauchen.",
+      "por": "Não se deve fumar aqui."
+    },
+    "text": "ここではタバコを吸ってはいけません。"
+  },
+  {
+    "id": "6303193",
+    "transcription": "[喫茶店|きっ|さ|てん]で[一杯|いっ|ぱい]ブルーベリーの[茶|ちゃ]を[飲|の]みます。",
+    "translations": {
+      "spa": "Bebo una taza de té de arándano en la tetería.",
+      "rus": "В чайной я выпиваю чашку черничного чая."
+    },
+    "text": "喫茶店で一杯ブルーベリーの茶を飲みます。"
+  },
+  {
+    "id": "6317803",
+    "transcription": "[Tatoeba|タトエバ]へようこそ！",
+    "translations": {
+      "epo": "Bonvenon ĉe Tatoeba!",
+      "tok": "kama pona tawa lipu Tatowepa!",
+      "kor": "타토에바에 오신 것을 환영합니다!",
+      "got": "𐌷𐌰𐌹𐌻𐌰 𐌰𐌽𐌰 𐍄𐌰𐍄𐍉𐌴𐌱𐌰𐌹!",
+      "deu": "Willkommen auf Tatoeba!"
+    },
+    "text": "Tatoebaへようこそ！"
+  },
+  {
+    "id": "6374918",
+    "transcription": "[彼|かれ]は[得意|とく|い]げな[顔|かお]で[繁華|はん|か][街|がい]を[闊歩|かっ|ぽ]していた。",
+    "translations": {
+      "rus": "Он с гордым видом шагал по деловому району."
+    },
+    "text": "彼は得意げな顔で繁華街を闊歩していた。"
+  },
+  {
+    "id": "6379048",
+    "transcription": "[少女|しょう|じょ]はあっという[間|ま]に[金網|かな|あみ]フェンスを[跳|と]び[越|こ]えた。",
+    "translations": {
+      "eng": "In the blink of an eye the girl jumped over the chain-link fence.",
+      "deu": "Im Handumdrehen sprang das Mädchen über den Maschendrahtzaun.",
+      "rus": "Девочка в мгновенье ока перепрыгнула через забор из металлической сетки.",
+      "zsm": "Dalam sekelip mata gadis itu melompat ke atas pagar pautan rantai.",
+      "fin": "Silmänräpäyksessä pikkutyttö hyppäsi metalliverkkoaidan yli."
+    },
+    "text": "少女はあっという間に金網フェンスを跳び越えた。"
+  },
+  {
+    "id": "6390324",
+    "transcription": "この[本|ほん]が[大好|だい|す]きです。",
+    "translations": {
+      "rus": "Мне очень нравится эта книга.",
+      "eng": "I love this book.",
+      "pol": "Ta książka bardzo mi się podoba.",
+      "spa": "Amo este libro.",
+      "hun": "Ez a könyv a kedvencem."
+    },
+    "text": "この本が大好きです。"
+  },
+  {
+    "id": "6390343",
+    "transcription": "[犬|いぬ]は[私|わたし]のくつを[食|た]べてしまった。",
+    "translations": {
+      "eng": "The dog ate my shoe.",
+      "pol": "Pies pogryzł mi buty.",
+      "rus": "Собака съела мой ботинок."
+    },
+    "text": "犬は私のくつを食べてしまった。"
+  },
+  {
+    "id": "6391918",
+    "transcription": "[人生|じん|せい]はそんなに[甘|あま]くない。",
+    "translations": {
+      "pol": "Życie nie jest takie słodkie.",
+      "rus": "В жизни не все так просто.",
+      "eng": "Life is not that sweet.",
+      "fra": "La vie n'est pas aussi rose.",
+      "vie": "Cuộc đời không ngọt ngào như thế.",
+      "ita": "La vita non è poi così dolce."
+    },
+    "text": "人生はそんなに甘くない。"
+  },
+  {
+    "id": "6391920",
+    "transcription": "[俺|おれ]の[友達|とも|だち]は[今週|こん|しゅう][末|まつ]に[行|い]くことができなかった。",
+    "translations": {
+      "pol": "Moi znajomi nie mogli iść w ten weekend.",
+      "rus": "Мой друг не смог пойти в конце этой недели.",
+      "eng": "My friends couldn't go this weekend."
+    },
+    "text": "俺の友達は今週末に行くことができなかった。"
+  },
+  {
+    "id": "6391921",
+    "transcription": "[今日|きょう]は[俺|おれ]の[休|やす]みだから、[一緒|いっ|しょ]にゲームをしましょうか。",
+    "translations": {
+      "rus": "Я сегодня отдыхаю, так что давай вместе поиграем в игру?",
+      "pol": "Skoro dzisiaj mam wolne, może w coś razem zagramy?",
+      "eng": "Since I have today off, shall we play a game?",
+      "cmn": "今天我休假，要不要一起玩游戏？"
+    },
+    "text": "今日は俺の休みだから、一緒にゲームをしましょうか。"
+  },
+  {
+    "id": "6391922",
+    "transcription": "[彼女|かの|じょ]にラブレターが[書|か]けなかった。",
+    "translations": {
+      "rus": "Я не мог написать ей любовное письмо.",
+      "pol": "Nie napisałem do niej listu miłosnego.",
+      "eng": "I could not write a love letter to her.",
+      "vie": "Tôi đã không thể viết cho cô ấy một bức thư tình."
+    },
+    "text": "彼女にラブレターが書けなかった。"
+  },
+  {
+    "id": "6391923",
+    "transcription": "あなたも[能力|のう|りょく][試験|し|けん]に[失敗|しっ|ぱい]しますか。",
+    "translations": {
+      "rus": "Ты тоже не сдал Норёку Сикэн?"
+    },
+    "text": "あなたも能力試験に失敗しますか。"
+  }
+]

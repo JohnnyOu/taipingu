@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Taipingu — Japanese Typing Game</title>
+    <meta name="description" content="Types Japanese sentence with transcription, translation and audio." />
+    <meta name="author" content="entibo" />
+    <link rel="icon" href="./favicon.ico">
+
+    <!-- <link
+      rel="preload"
+      href="./fonts/SourceHanSansJP-Regular.adjusted.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin
+    /> -->
+
+    <script defer src="./icons.js"></script>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="loading" style="background: url('./waves.webp')">
+    <div id="sentenceCountElement" style="display: none"></div>
+
+    <main>
+      <nav class="links">
+        <!-- TODO: github link -->
+        <a
+          class="button"
+          target="_blank"
+          href="https://github.com/entibo/taipingu"
+        >
+          <div class="legend">About</div>
+          <span><span class="bold">Taipingu</span>について</span>
+        </a>
+        <a
+          id="sentenceOriginLink"
+          class="button hidden"
+          target="_blank"
+          href="https://tatoeba.org/en/sentences/search?from=jpn&sort=modified&sort_reverse"
+        >
+          <div class="legend">
+            Sentence <span id="sentenceIdElement">0</span>
+          </div>
+          <span>この文を<span class="bold">Tatoeba</span>で見る</span>
+        </a>
+      </nav>
+
+      <div id="sentenceContainer">
+        <div id="highlightElement"></div>
+
+        <div id="sentenceElement">
+          <!-- For reference only -->
+          <template>
+            <span data-target="お" class="text complete">お</span>
+            <ruby>
+              <span class="text">前</span>
+              <rt>
+                <span data-target="ま" class="active">ま</span>
+                <span data-target="え">え</span>
+              </rt>
+            </ruby>
+            <span data-target="は" class="text">は</span>
+          </template>
+        </div>
+
+        <div id="hintElement">
+          <custom-icon name="return"></custom-icon>
+        </div>
+
+        <div id="translationElement" dir="auto"></div>
+      </div>
+
+      <div class="settings">
+        <div class="button-group appearance">
+          <label for="furiganaCheckbox" class="button custom-checkbox">
+            <div class="legend">Pronunciation</div>
+            <input type="checkbox" id="furiganaCheckbox" />
+            <custom-icon name="unchecked"></custom-icon>
+            <custom-icon name="checked"></custom-icon>
+            ふりがな
+            <kbd class="key">tab</kbd>
+          </label>
+
+          <label for="languageSelect" class="button">
+            <div class="legend">Translation</div>
+            <select id="languageSelect">
+              <option value="">翻訳オフ</option>
+            </select>
+          </label>
+
+          <label for="fontCheckbox" class="button custom-checkbox">
+            <div class="legend">Font</div>
+            <input type="checkbox" id="fontCheckbox" />
+            <custom-icon name="unchecked"></custom-icon>
+            <custom-icon name="checked"></custom-icon>
+            明朝体
+          </label>
+        </div>
+
+        <label for="audioCheckbox" class="button custom-checkbox">
+          <div class="legend">Voice</div>
+          <div id="sentenceVoiceContainer" class="icon-text hidden">
+            <custom-icon name="user-voice"></custom-icon>
+            <span id="sentenceVoiceElement">Voice Actor</span>
+          </div>
+          <input type="checkbox" id="audioCheckbox" />
+          <custom-icon name="unchecked"></custom-icon>
+          <custom-icon name="checked"></custom-icon>
+          音声
+          <kbd class="key">space</kbd>
+        </label>
+
+        <div class="readings">
+          <div class="legend">Unknown words</div>
+          <label class="button"
+            ><input type="radio" name="unknownReadings" value="0" />０</label
+          >
+          <label class="button"
+            ><input type="radio" name="unknownReadings" value="1" />１</label
+          >
+          <label class="button"
+            ><input type="radio" name="unknownReadings" value="null" />＊</label
+          >
+        </div>
+
+        <button id="restartButton" class="button hidden">
+          <div class="legend">Typing speed</div>
+          <div id="speedElement">
+            <!-- number rendered using ::before -->
+            <span class="wpm">wpm</span>
+          </div>
+          <kbd class="key">escape</kbd>
+        </button>
+
+        <button id="nextSentenceButton" class="button">
+          <div class="legend">Next</div>
+          <span>次<span class="no">の</span>文</span>
+          <kbd class="key">enter</kbd>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
