@@ -512,7 +512,7 @@ function _setSettings(value) {
 }
 
 function loadSettings() {
-  const storedSettings = localStorage.getItem('settings')
+  const storedSettings = localStorage.getItem('taipingu')
   if (storedSettings !== null) {
     settings = { ...settings, ...JSON.parse(storedSettings) }
   }
@@ -529,7 +529,7 @@ function loadSettings() {
 }
 
 function saveSettings(newSettings) {
-  localStorage.setItem('settings', JSON.stringify(newSettings))
+  localStorage.setItem('taipingu', JSON.stringify(newSettings))
   _setSettings(newSettings)
 
   if (newSettings.furigana) wasFuriganaRevealed = true
@@ -632,7 +632,7 @@ document.fonts.ready.then((fontFaceSet) => {
   document.body.classList.remove('loading')
   renderSentence()
   setTimeout(() => {
-    fontFaceSet.load('1em noto-serif')
+        fontFaceSet.load('1em noto-serif')
   }, 3000)
 })
 
@@ -661,4 +661,5 @@ setSentence({
     { text: '。' },
   ],
   translations: { eng: 'This is a Japanese typing game.' },
+  readings: [],
 })
