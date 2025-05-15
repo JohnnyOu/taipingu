@@ -631,8 +631,9 @@ function enableAudio() {
 document.fonts.ready.then((fontFaceSet) => {
   document.body.classList.remove('loading')
   renderSentence()
-  setTimeout(() => {
-        fontFaceSet.load('1em noto-serif')
+  setTimeout(async () => {
+    await fontFaceSet.load('1em noto-sans')
+    await fontFaceSet.load('1em noto-serif')
   }, 3000)
 })
 
