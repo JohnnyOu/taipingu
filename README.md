@@ -1,4 +1,7 @@
-「タイピング」 Taipingu is a minimalistic japanese typing game
+「タイピング」 Taipingu is a minimalistic Japanese typing game
+
+![image](https://github.com/user-attachments/assets/fc1b44ea-119b-4194-9c0e-190ec209a5f3)
+
 
 - Thousands of sentences from [Tatoeba](https://tatoeba.org/) (CC-BY)
   - Transcription (furigana)
