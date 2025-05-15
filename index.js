@@ -65,8 +65,6 @@ async function nextSentence() {
 }
 
 function onInputMistake(key) {
-  console.log('mistake:', key)
-
   // Animate: scale down and turn red
   hintElement.animate(
     [
@@ -111,8 +109,6 @@ function onInputMistake(key) {
 let firstInputTimeMS
 
 function onCompleteSentence() {
-  console.log('onCompleteSentence', sentence)
-
   // See if the user typed an unknown word
   if (!wasFuriganaRevealed) {
     let anyNewReadings = false
@@ -283,14 +279,12 @@ function renderSentenceProgress() {
     const activeTargetRect = activeTarget.getBoundingClientRect()
     const x = activeTargetRect.x + activeTargetRect.width / 2
 
-    console.log(x, x - containerRect.x)
     hintElement.style.setProperty('--hint-x', `${x - containerRect.x}px`)
 
     let doesItNeedToBeHigher = false
     for (const rt of sentenceElement.querySelectorAll('rt')) {
       const rtRect = rt.getBoundingClientRect()
       if (rtRect.left < x + 10 && x - 10 < rtRect.right) {
-        console.log('overlap!')
         doesItNeedToBeHigher = true
       }
     }
@@ -304,7 +298,6 @@ function renderSentenceProgress() {
   ).at(-1)
   if (lastComplete) {
     const width = lastComplete.offsetLeft + lastComplete.offsetWidth
-    console.log('highlight width', width)
     highlightElement.style.width = `${width}px`
   } else {
     highlightElement.style.width = '0'
@@ -484,7 +477,6 @@ addEventListener('keydown', (e) => {
 })
 
 function simulateButtonPress(button) {
-  console.log(button, 'press')
   button.animate([{ scale: 0.98, translate: '0 2px' }, {}], {
     duration: 300,
     easing: 'ease-in',
