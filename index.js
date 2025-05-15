@@ -634,7 +634,7 @@ document.fonts.ready.then((fontFaceSet) => {
   setTimeout(async () => {
     await fontFaceSet.load('1em noto-sans')
     await fontFaceSet.load('1em noto-serif')
-  }, 3000)
+  }, 1000)
 })
 
 loadSettings()
