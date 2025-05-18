@@ -730,6 +730,7 @@ body.mincho #hintElement::before {
   display: none;
   color: var(--text);
   margin-bottom: 1em;
+  line-height: 1.5em;
 }
 
 @media (max-width: 850px) {
