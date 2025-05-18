@@ -43,6 +43,11 @@ a:focus {
   /* outline: none; */
 }
 
+em {
+  font-weight: bold;
+  font-style: inherit;
+}
+
 ::selection {
   background-color: var(--text);
   color: var(--background);
@@ -258,8 +263,6 @@ body:not(.furigana) #sentenceElement > ruby > rt {
 #sentenceElement .text[data-target='。']:last-child {
   opacity: 0;
 }
-
-
 
 /* HIGHLIGHT */
 
@@ -719,4 +722,31 @@ body.mincho #hintElement::before {
 }
 #sentenceCountElement::before {
   content: counter(sentence-count);
+}
+
+/* MOBILE */
+
+.description {
+  display: none;
+  color: var(--text);
+  margin-bottom: 1em;
+}
+
+@media (max-width: 850px) {
+  main {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+  }
+  .description {
+    display: block;
+  }
+  #sentenceContainer,
+  .settings,
+  #sentenceOriginLink {
+    display: none;
+  }
+  .links {
+    justify-content: center;
+  }
 }
