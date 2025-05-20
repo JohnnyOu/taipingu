@@ -151,12 +151,12 @@ main {
 }
 
 main {
-  transition: opacity 300ms ease-in-out, height 600ms ease-in-out;
+  transition: opacity 300ms ease-in-out, transform 400ms ease-in-out;
 }
 body.loading main {
   visibility: hidden;
   opacity: 0;
-  height: 370px;
+  transform: scale(0.98) translateY(10px);
 }
 
 /* SENTENCE */
