@@ -459,9 +459,9 @@ body.mincho #hintElement::before {
 }
 
 /* Dim buttons while typing is in progress */
+.settings :is(.button, .readings):not(#nextSentenceButton, #restartButton),
 body:has(#sentenceContainer:not(.complete)):has(#sentenceElement .complete)
-  :is(.readings, .button),
-body:has(#sentenceContainer:not(.complete)) #nextSentenceButton {
+  #nextSentenceButton {
   filter: grayscale(0.7);
 }
 
@@ -529,7 +529,6 @@ body:has(#sentenceContainer:not(.complete)) #nextSentenceButton {
 }
 
 /* NEXT SENTENCE */
-
 
 /* SPEED / RESTART */
 
@@ -616,8 +615,11 @@ body:has(#sentenceContainer:not(.complete)) #nextSentenceButton {
   color: currentColor;
 }
 
-/* LANGAUGE SELECT */
+/* LANGUAGE SELECT */
 
+label:has(#languageSelect) {
+  padding-inline-end: 0.5em;
+}
 #languageSelect {
   width: 6em;
 }
