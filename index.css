@@ -92,6 +92,8 @@ html {
   --settings-border: rgb(234, 189, 189);
   --settings-text: #b55151;
 
+  --icon-fill: rgb(208, 134, 138);
+
   --wpm-0-background: var(--highlight);
   --wpm-0-text: var(--text-2-stronger);
   --wpm-1-background: #ffcfcf;
@@ -456,6 +458,13 @@ body.mincho #hintElement::before {
   scale: 0.97;
 }
 
+/* Dim buttons while typing is in progress */
+body:has(#sentenceContainer:not(.complete)):has(#sentenceElement .complete)
+  :is(.readings, .button),
+body:has(#sentenceContainer:not(.complete)) #nextSentenceButton {
+  filter: grayscale(0.7);
+}
+
 /* KEYBOARD SHORTCUT LABEL */
 
 .key,
@@ -521,11 +530,6 @@ body.mincho #hintElement::before {
 
 /* NEXT SENTENCE */
 
-#nextSentenceButton {
-}
-#nextSentenceButton .no {
-  font-size: 0.9em;
-}
 
 /* SPEED / RESTART */
 
@@ -689,7 +693,7 @@ body.mincho #hintElement::before {
 .links {
   display: flex;
   gap: 1em;
-  margin-top: 1em;
+  margin-top: 0.1em;
 }
 
 .links .button {
@@ -707,6 +711,27 @@ body.mincho #hintElement::before {
   font-weight: bold;
   padding-inline: 0.2em;
   /* font-size: 1.05em; */
+}
+
+#logo {
+  height: auto;
+  margin-block: auto;
+  font-size: 1.4em;
+  color: var(--text-muted);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.links .button custom-icon {
+  margin-right: 0.4em;
+}
+custom-icon[name='github'] > svg,
+custom-icon[name='discord'] > svg {
+  stroke: none;
+  fill: var(--icon-fill);
+}
+
+#sentenceOriginLink {
+  margin-left: auto;
 }
 
 /* SENTENCE COUNT */
