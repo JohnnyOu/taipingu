@@ -60,6 +60,7 @@ There is no tooling required to build this project but a few scripts are used to
 - cache buffered sentences in local storage for next startup
 - display a loading indicator in case loading is slow or fails
 
-# Other Japanese typing games
+# Other Japanese typing websites
 
-- https://typing.playgram.jp/advanced/play/easy
+- 🇯🇵 https://typing.playgram.jp/advanced/play/easy
+- 🇯🇵 https://www.e-typing.ne.jp/
