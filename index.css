@@ -177,6 +177,8 @@ body.loading main {
   word-break: keep-all;
   white-space: nowrap;
   color: var(--text);
+
+  line-height: 1;
 }
 
 /* SENTENCE RUBY */
@@ -190,7 +192,8 @@ body.loading main {
   /* Override the ruby layout */
   position: absolute;
   left: 50%;
-  top: 0;
+  /* Setting this messes up alignment on Chrome/Windows */
+  /* top: 0; */
   translate: calc(-50% + var(--overlap-adjustment, 0px)) -100%;
 
   user-select: none;
@@ -203,6 +206,8 @@ body.loading main {
   font-size: 60%;
   color: var(--text-2);
   display: inline;
+
+  line-height: 1;
 }
 
 /* FEAT: toggle furigana */
