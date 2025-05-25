@@ -26,6 +26,7 @@ async function setSentence(value) {
   matcher = new Matcher(
     sentence.parts.map((part) => part.transcription || part.text).join(''),
   )
+  window.matcher = matcher
 
   hintElement.animate([{ opacity: 0 }, {}], {
     duration: 300,
@@ -402,6 +403,10 @@ furiganaCheckbox.addEventListener('change', () => {
   saveSettings({ ...settings, furigana: furiganaCheckbox.checked })
 })
 
+translationCheckbox.addEventListener('change', () => {
+  saveSettings({ ...settings, translationEnabled: translationCheckbox.checked })
+})
+
 audioCheckbox.addEventListener('change', () => {
   saveSettings({ ...settings, audio: audioCheckbox.checked })
 
@@ -487,6 +492,7 @@ function simulateButtonPress(button) {
 
 let settings = {
   language: 'eng',
+  translationEnabled: true,
   furigana: true,
   audio: false,
   mincho: false,
@@ -515,6 +521,7 @@ function loadSettings() {
   document.querySelector(
     `input[name="unknownReadings"][value="${settings.unknownReadings}"]`,
   ).checked = true
+  translationCheckbox.checked = settings.translationEnabled
   initializeLanguageSelect(settings.language)
 
   _setSettings(settings)
@@ -553,6 +560,12 @@ async function initializeLanguageSelect(lang) {
 }
 
 languageSelect.addEventListener('change', () => {
+  // Language was changed, make sure translation is enabled
+  if(!settings.translationEnabled) {
+    translationCheckbox.click()
+    simulateButtonPress(translationCheckbox.closest('.button'))
+  }
+
   setTranslationLanguage(languageSelect.value)
 })
 

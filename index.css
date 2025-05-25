@@ -419,6 +419,13 @@ body.mincho #hintElement::before {
 
   color: var(--text-2);
   font-size: 55%;
+
+  transition: opacity 100ms ease-in-out, top 100ms ease-in-out, scale 100ms ease-in-out;
+}
+
+body:has(#translationCheckbox:not(:checked)) #translationElement {
+  top: calc(100% - 6px);
+  opacity: 0;
 }
 
 /* BUTTONS */
