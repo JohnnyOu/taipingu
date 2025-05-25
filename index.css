@@ -623,7 +623,7 @@ body:has(#sentenceContainer:not(.complete)):has(#sentenceElement .complete)
 }
 
 .custom-checkbox:hover > custom-icon,
-.custom-checkbox:has(:checked) > custom-icon {
+.custom-checkbox:has([type="checkbox"]:checked) > custom-icon {
   color: currentColor;
 }
 
