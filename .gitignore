@@ -1,3 +1,5 @@
+node_modules
+sentences/tatoeba/data
 sentences/tatoeba/tmp
 notes.txt
 tmp.html
