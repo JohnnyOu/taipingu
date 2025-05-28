@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test'
-import { Matcher } from './romaji.js'
+import { Matcher } from './matcher.js'
 
 function match(jp, input) {
   const matcher = new Matcher(jp)

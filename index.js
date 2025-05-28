@@ -1,4 +1,4 @@
-import { Matcher } from './romaji.js'
+import { Matcher } from './matcher.js'
 import { getLanguages, makeSentenceProvider } from './sentences/tatoeba/api.js'
 
 /** @type {Matcher} */
