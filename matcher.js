@@ -3,12 +3,15 @@ export class Matcher {
   japaneseIndex = 0
   keystrokes = ''
   targets = []
+  currentCharIsRomaji = true
 
   /**
    * First character of first possible input target
    */
   get hint() {
-    return this.targets[0][0]
+    return this.currentCharIsRomaji
+      ? this.targets.find((rule) => this.isRomaji(rule[0]))[0]
+      : this.targets.find((rule) => !this.isRomaji(rule[0]))[0]
   }
 
   get completed() {
@@ -40,12 +43,19 @@ export class Matcher {
     ]
   }
 
+  isRomaji(char) {
+    return char.codePointAt(0) < 128
+  }
+
   /**
    * Advances input completion state
    * @param {string} char
    * @returns {boolean} true if character matches one the input targets
    */
   input(char) {
+    // update boolean flag that decides what hint to show
+    this.currentCharIsRomaji = this.isRomaji(char)
+
     // character completes an input target
     // increment japanese index and get new targets
     // e.g. allowed=['a'] input='a'
@@ -79,10 +89,46 @@ export class Matcher {
 
 /**
  * @param {string} jp "しんじられない"
- * @returns {string[]} ["si", "shi"]
+ * @returns {string[]} ["し", "si", "shi"]
  */
 function getInputTargets(jp) {
-  return rules.find((rule) => jp.match(rule[0]))[1]
+  const matchedKanaRule = kanaRules.find((rule) => jp.match(rule[0]))
+  return [
+    ...matchedKanaRule ? matchedKanaRule[1] : [],
+    ...romajiRules.find((rule) => jp.match(rule[0]))[1],
+  ]
+}
+
+/**
+ * Unicode for hiragana: https://www.unicode.org/charts/PDF/U3040.pdf
+ * Unicode for katakana: https://www.unicode.org/charts/PDF/U30A0.pdf
+ */
+const HIRAGANA_START = 0x3041; // 'ぁ'
+const HIRAGANA_END = 0x3096; // 'ゖ'
+const KATAKANA_OFFSET = 0x30A1 - 0x3041; // Offset between 'ぁ' and 'ァ'
+
+/**
+ * Match each hiragana and katakana to its base hiragana plus dakuten if exists.
+ * Examples: [/^[あア]/, ['あ']], [/^[がガ]/, ['か゛']]
+ */
+const kanaRules = [];
+for (let unicode = HIRAGANA_START; unicode <= HIRAGANA_END; unicode++) {
+  const hiragana = String.fromCharCode(unicode);
+  const katakana = String.fromCharCode(unicode + KATAKANA_OFFSET);
+
+  // decompose kana into base kana plus dakuten
+  const decomposed = hiragana.normalize('NFD')
+  const baseHiragana = decomposed.charAt(0)
+
+  // independent forms of dakuten and han-dakuten are two bits after the diacritic form
+  const dakuten = decomposed.codePointAt(1)
+    ? String.fromCharCode(decomposed.codePointAt(1) + 2)
+    : ''
+
+  kanaRules.push([
+    new RegExp(`^[${hiragana}${katakana}]`),
+    [`${baseHiragana}${dakuten}`]
+  ])
 }
 
 /**
@@ -91,7 +137,7 @@ function getInputTargets(jp) {
  *  Order matters: patterns with lookaheads must precede general ones.
  *  Example: `/^[しシ](?=[ゃャゅュぇェょョ])/` before `/^[しシ]/` to match 'sh' before 'si'.
  */
-const rules = [
+const romajiRules = [
   [/^[きキ](?=[ゃャぃィゅュぇェょョ])/, ['ky']],
   [/^[ぎギ](?=[ゃャぃィゅュぇェょョ])/, ['gy']],
   [/^[にニ](?=[ゃャぃィゅュぇェょョ])/, ['ny']],
