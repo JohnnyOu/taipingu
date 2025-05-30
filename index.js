@@ -166,6 +166,7 @@ function onCompleteSentence() {
   })
 }
 
+window.onInput = onInput
 function onInput(key) {
   if (matcher.completed) return
 
@@ -476,7 +477,7 @@ addEventListener('keydown', (e) => {
 
   if (key.length === 1) {
     e.preventDefault()
-    onInput(key.toLowerCase())
+    onInput(key)
     return
   }
 })
@@ -561,7 +562,7 @@ async function initializeLanguageSelect(lang) {
 
 languageSelect.addEventListener('change', () => {
   // Language was changed, make sure translation is enabled
-  if(!settings.translationEnabled) {
+  if (!settings.translationEnabled) {
     translationCheckbox.click()
     simulateButtonPress(translationCheckbox.closest('.button'))
   }

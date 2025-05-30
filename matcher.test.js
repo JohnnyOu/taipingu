@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test'
-import { Matcher } from './matcher.js'
+import { Matcher, isAscii } from './matcher.js'
 
 function match(jp, input) {
   const matcher = new Matcher(jp)
@@ -69,6 +69,17 @@ test('small tsu', () => {
   expectFullMatch('ペット', 'へ゜っと')
 })
 
+test('case-insensitive', () => {
+  expect(match('かれは', 'KarEhA')).toEqual(['かれは', 'KarEhA'])
+})
+
+test('latin', () => {
+  expect(match('Tatoebaは', 'tatOEBAha')) //
+    .toEqual(['tatoebaは', 'tatOEBAha'])
+  expect(match('Ｔａｔｏｅｂａは', 'tatOEBAha')) //
+    .toEqual(['ｔａｔｏｅｂａは', 'tatOEBAha'])
+})
+
 test('other', () => {
   expectFullMatch('トゥどぅ', 'twudwu')
   expectFullMatch('きょ', 'kyo')
@@ -108,17 +119,6 @@ test('punctuation', () => {
 })
 
 describe('hint', () => {
-  test('isRomaji', () => {
-    const matcher = new Matcher('aiueo')
-    expect(matcher.isRomaji('a')).toBe(true)
-    expect(matcher.isRomaji('A')).toBe(true)
-    expect(matcher.isRomaji(',')).toBe(true)
-    expect(matcher.isRomaji('-')).toBe(true)
-    expect(matcher.isRomaji('あ')).toBe(false)
-    expect(matcher.isRomaji('ア')).toBe(false)
-    expect(matcher.isRomaji('ー')).toBe(false)
-  })
-
   test('romaji-only input', () => {
     const input = 'syuppatudekiru'
     const matcher = new Matcher(input)
@@ -154,7 +154,7 @@ describe('hint', () => {
 
     input.split('').forEach((char, index) => {
       matcher.input(char)
-      expect(matcher.currentCharIsRomaji).toBe(matcher.isRomaji(char))
+      expect(matcher.currentCharIsRomaji).toBe(isAscii(char))
     })
   })
 })

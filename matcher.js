@@ -1,3 +1,14 @@
+export function isAscii(char) {
+  return char.codePointAt(0) < 128
+}
+export function isFullwidth(char) {
+  const code = char.codePointAt(0)
+  return 0xff01 <= code && code <= 0xff5e
+}
+export function fullwidthToAscii(char) {
+  return String.fromCharCode(char.codePointAt(0) - 0xfee0)
+}
+
 export class Matcher {
   japaneseText = ''
   japaneseIndex = 0
@@ -5,29 +16,25 @@ export class Matcher {
   targets = []
   currentCharIsRomaji = true
 
-  /**
-   * First character of first possible input target
-   */
+  constructor(jp) {
+    // case-insensitive matching for latin characters
+    this.japaneseText = jp.toLowerCase()
+
+    this.reset()
+  }
+
+  /** Show the player what to type next (1 character) */
   get hint() {
-    return this.currentCharIsRomaji
-      ? this.targets.find((rule) => this.isRomaji(rule[0]))[0]
-      : this.targets.find((rule) => !this.isRomaji(rule[0]))[0]
+    if (!this.currentCharIsRomaji) {
+      const kanaTarget = this.targets.find((target) => !isAscii(target[0]))
+      if (kanaTarget) return kanaTarget.charAt(0)
+    }
+
+    return this.targets[0]?.charAt(0)
   }
 
   get completed() {
     return this.japaneseIndex === this.japaneseText.length
-  }
-
-  constructor(jp) {
-    // No spaces, lowercase, half-width ASCII
-    // TODO: normalize outside of this function
-    this.japaneseText = jp
-      .toLowerCase()
-      .replace(/\s/g, '')
-      .replace(/[\uFF01-\uFF5E]/g, (c) =>
-        String.fromCharCode(c.charCodeAt(0) - 0xfee0),
-      )
-    this.reset()
   }
 
   reset() {
@@ -37,14 +44,7 @@ export class Matcher {
   }
 
   updateInputTargets() {
-    this.targets = [
-      ...getInputTargets(this.japaneseText.slice(this.japaneseIndex)),
-      this.japaneseText[this.japaneseIndex],
-    ]
-  }
-
-  isRomaji(char) {
-    return char.codePointAt(0) < 128
+    this.targets = getInputTargets(this.japaneseText.slice(this.japaneseIndex))
   }
 
   /**
@@ -53,12 +53,14 @@ export class Matcher {
    * @returns {boolean} true if character matches one the input targets
    */
   input(char) {
-    // update boolean flag that decides what hint to show
-    this.currentCharIsRomaji = this.isRomaji(char)
+    // case-insensitive
+    char = char.toLowerCase()
+
+    this.currentCharIsRomaji = isAscii(char)
 
     // character completes an input target
     // increment japanese index and get new targets
-    // e.g. allowed=['a'] input='a'
+    // e.g. targets=['a'] input='a'
     if (this.targets.includes(char)) {
       this.japaneseIndex++
       if (this.japaneseIndex < this.japaneseText.length) {
@@ -69,15 +71,15 @@ export class Matcher {
     }
 
     // see if character prefixes an input target (or several)
-    // e.g. allowed=['ti', 'chi'] input='t' =>['ti']
+    // e.g. targets=['ti', 'chi'] input='t' => ['ti']
     const matchingInputTargets = this.targets.filter((inputTarget) =>
       inputTarget.startsWith(char),
     )
 
-    // e.g. allowed=['ma'] input='h'
+    // e.g. targets=['ma'] input='h'
     if (matchingInputTargets.length === 0) return false
 
-    // e.g. allowed=['ti'] input='t' =>['i']
+    // e.g. targets=['ti'] input='t' => ['i']
     this.targets = matchingInputTargets.map((inputTarget) =>
       inputTarget.slice(char.length),
     )
@@ -92,29 +94,46 @@ export class Matcher {
  * @returns {string[]} ["し", "si", "shi"]
  */
 function getInputTargets(jp) {
-  const matchedKanaRule = kanaRules.find((rule) => jp.match(rule[0]))
-  return [
-    ...matchedKanaRule ? matchedKanaRule[1] : [],
-    ...romajiRules.find((rule) => jp.match(rule[0]))[1],
-  ]
+  const romajiTargets = matchTextWithRules(jp, romajiRules)
+  const kanaTargets = matchTextWithRules(jp, kanaRules)
+
+  const targets = [...romajiTargets, ...kanaTargets]
+
+  // in case the rules missed something...
+  const nextCharacter = jp.charAt(0)
+  targets.push(nextCharacter)
+  if (isFullwidth(nextCharacter)) {
+    targets.push(fullwidthToAscii(nextCharacter))
+  }
+
+  return targets
+}
+
+function matchTextWithRules(text, rules) {
+  for (const [regex, targets] of rules) {
+    if (text.match(regex)) {
+      return targets
+    }
+  }
+  return []
 }
 
 /**
  * Unicode for hiragana: https://www.unicode.org/charts/PDF/U3040.pdf
  * Unicode for katakana: https://www.unicode.org/charts/PDF/U30A0.pdf
  */
-const HIRAGANA_START = 0x3041; // 'ぁ'
-const HIRAGANA_END = 0x3096; // 'ゖ'
-const KATAKANA_OFFSET = 0x30A1 - 0x3041; // Offset between 'ぁ' and 'ァ'
+const HIRAGANA_START = 0x3041 // 'ぁ'
+const HIRAGANA_END = 0x3096 // 'ゖ'
+const KATAKANA_OFFSET = 0x30a1 - 0x3041 // Offset between 'ぁ' and 'ァ'
 
 /**
  * Match each hiragana and katakana to its base hiragana plus dakuten if exists.
  * Examples: [/^[あア]/, ['あ']], [/^[がガ]/, ['か゛']]
  */
-const kanaRules = [];
+const kanaRules = []
 for (let unicode = HIRAGANA_START; unicode <= HIRAGANA_END; unicode++) {
-  const hiragana = String.fromCharCode(unicode);
-  const katakana = String.fromCharCode(unicode + KATAKANA_OFFSET);
+  const hiragana = String.fromCharCode(unicode)
+  const katakana = String.fromCharCode(unicode + KATAKANA_OFFSET)
 
   // decompose kana into base kana plus dakuten
   const decomposed = hiragana.normalize('NFD')
@@ -127,7 +146,7 @@ for (let unicode = HIRAGANA_START; unicode <= HIRAGANA_END; unicode++) {
 
   kanaRules.push([
     new RegExp(`^[${hiragana}${katakana}]`),
-    [`${baseHiragana}${dakuten}`]
+    [`${baseHiragana}${dakuten}`],
   ])
 }
 
@@ -306,7 +325,7 @@ const romajiRules = [
   [/^[ヶ]/, ['xke', 'lke']],
 
   // punctuation (best effort)
-  [/^[、，,]/, [',']],
+  [/^[、，,､]/, [',']],
   [/^[。．.]/, ['.']],
   [/^[：:]/, [':']],
   [/^[；;]/, [';']],
@@ -317,13 +336,9 @@ const romajiRules = [
   [/^・/, ['.', '/']],
   [/^[〜~]/, ['~']],
   [/^／/, ['/', ';']],
+  [/^％/, ['%']],
 
   // lenient quotes and brackets
-  [/^[「｢『（”"]/, ['"', '«', '[', '(', '{']],
-  [/^[」｣』）"]/, ['"', '»', ']', ')', '}']],
-
-  // catch-all -- this should only happen for
-  // characters that can be typed directly
-  // (e.g. latin letters)
-  [/^./, []],
+  [/^[「｢『（［＂”"]/, ['"', '«', '[', '(', '{']],
+  [/^[」｣』）］]/, ['"', '»', ']', ')', '}']],
 ]
