@@ -8,6 +8,9 @@ export function isFullwidth(char) {
 export function fullwidthToAscii(char) {
   return String.fromCharCode(char.codePointAt(0) - 0xfee0)
 }
+export function asciiToFullwidth(char) {
+  return String.fromCharCode(char.codePointAt(0) + 0xfee0)
+}
 
 export class Matcher {
   japaneseText = ''
@@ -104,6 +107,8 @@ function getInputTargets(jp) {
   targets.push(nextCharacter)
   if (isFullwidth(nextCharacter)) {
     targets.push(fullwidthToAscii(nextCharacter))
+  } else if(isAscii(nextCharacter)) {
+    targets.push(asciiToFullwidth(nextCharacter))
   }
 
   return targets

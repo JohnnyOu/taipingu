@@ -114,8 +114,10 @@ test('other', () => {
 })
 
 test('punctuation', () => {
-  expectFullMatch('a、b、「foo」、x・y。', 'a,b,[foo],x/y.')
+  expectFullMatch('a、b、「foo！？」、x・y。', 'a,b,[foo!?],x/y.')
+  expectFullMatch('a,b,"foo!?",x・y.', 'a,b,"foo!?",x/y.')
   expectFullMatch('はい。', 'hai.')
+  expectFullMatch('か!?', 'か！？')
 })
 
 describe('hint', () => {
